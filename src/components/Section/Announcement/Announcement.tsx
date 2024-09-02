@@ -55,7 +55,7 @@ export default function Announcement() {
                                         <span>{announcement.time}</span>
                                     </div>
                                     <Link
-                                        href={`/pengumuman/${announcement.id}`}
+                                        href={`/announcement/${announcement.id}`}
                                         className="flex w-fit gap-1 items-center"
                                     >
                                         <span className="text-base font-semibold">
@@ -67,7 +67,7 @@ export default function Announcement() {
                                     {announcement.desc}
                                 </span>
                                 <Link
-                                    href={`/pengumuman/${announcement.id}`}
+                                    href={`/announcement/${announcement.id}`}
                                     className="text-blue-800 text-sm font-medium"
                                 >
                                     Baca selengkapnya

@@ -4,7 +4,7 @@ export const navItems = [
         text: 'Beranda',
     },
     {
-        link: '/informasi',
+        link: '/information',
         text: 'Informasi',
     },
     {
@@ -12,11 +12,11 @@ export const navItems = [
         text: 'Absensi',
     },
     {
-        link: '/pengumuman',
+        link: '/announcement',
         text: 'Pengumuman',
     },
     {
-        link: '/galeri',
+        link: '/gallery',
         text: 'Galeri',
     },
 ]

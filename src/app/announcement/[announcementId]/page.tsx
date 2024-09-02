@@ -1,13 +1,13 @@
 import AnnouncementDetail from '@/components/Section/Announcement/Detail/AnnouncementDetail'
 
 export default function AnnouncementDetailPage({
-    pengumumanId,
+    params: { announcementId },
 }: {
-    pengumumanId: string
+    params: { announcementId: string }
 }) {
     return (
         <>
-            <AnnouncementDetail pengumumanId={pengumumanId} />
+            <AnnouncementDetail announcementId={announcementId} />
         </>
     )
 }
