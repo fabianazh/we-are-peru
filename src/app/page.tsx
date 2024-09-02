@@ -1,17 +1,13 @@
-import Header from '@/components/Partials/Header'
-import Hero from '@/components/Section/Hero'
-import About from '@/components/Section/About'
-import Information from '@/components/Section/Information'
+import Hero from '@/components/Section/Home/Hero'
+import About from '@/components/Section/Home/About'
+import Gallery from '@/components/Section/Home/Gallery'
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
-            <Header />
-            <main>
-                <Hero />
-                <About />
-                <Information />
-            </main>
+            <Hero />
+            <About />
+            <Gallery />
         </>
     )
 }

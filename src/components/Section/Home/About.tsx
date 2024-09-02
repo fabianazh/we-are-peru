@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import TextReveal from '@/components/Other/TextReveal'
-import { IoArrowUpOutline } from 'react-icons/io5'
+import PrimaryButton from '@/components/Button/PrimaryButton'
 
 export default function About() {
     return (
@@ -20,20 +20,12 @@ export default function About() {
                         />
 
                         <div className="w-full flex gap-2 items-center py-2">
-                            <Link
-                                href={'/'}
-                                className="w-fit flex items-center justify-center gap-1 font-medium text-xs bg-stone-100 hover:bg-stone-200/70 transition-colors duration-300 px-4 shadow-sm rounded-full py-1"
-                            >
-                                <span>Struktur Organisasi</span>
-                                <IoArrowUpOutline className="rotate-45 text-sm" />
-                            </Link>
-                            <Link
-                                href={'/'}
-                                className="w-fit flex items-center justify-center gap-1 font-medium text-xs bg-stone-100 hover:bg-stone-200/70 transition-colors duration-300 px-4 shadow-sm rounded-full py-1"
-                            >
-                                <span>Yel-Yel Grup</span>
-                                <IoArrowUpOutline className="rotate-45 text-sm" />
-                            </Link>
+                            <PrimaryButton href="/">
+                                Struktur Organisasi
+                            </PrimaryButton>
+                            <PrimaryButton href={'/'}>
+                                Yel-Yel Grup
+                            </PrimaryButton>
                         </div>
                     </div>
                 </div>

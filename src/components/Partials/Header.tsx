@@ -2,36 +2,33 @@
 
 // import Navbar from '@/components/Partials/Navbar'
 import { useEffect, useState } from 'react'
-import {
-    AnimatePresence,
-    motion,
-    useMotionValueEvent,
-    useScroll,
-} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import NavButton from '@/components/Partials/NavButton'
 import Link from 'next/link'
 import { navItems } from '@/constants/component'
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const [isScrolled, setIsScrolled] = useState<boolean>(false)
 
-    const { scrollY } = useScroll()
+    const pathname = usePathname()
 
-    useMotionValueEvent(scrollY, 'change', (latest) => {
-        const viewportHeight = window.innerHeight
-        const halfScreen = viewportHeight / 2
-
-        if (latest < halfScreen) {
-            setIsScrolled(false)
-        } else {
-            setIsScrolled(true)
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true)
+            } else {
+                setIsScrolled(false)
+            }
         }
 
-        // if (isOpen) {
-        //     setIsOpen(false)
-        // }
-    })
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
 
     return (
         <>
@@ -77,10 +74,10 @@ export default function Header() {
                 // }}
                 // animate={hidden ? 'hidden' : 'visible'}
                 // transition={{ duration: 0.35, ease: 'easeInOut' }}
-                className={`w-full h-fit fixed top-0 left-0 z-30 transition-all duration-200 py-3 px-5 lg:px-14 flex items-center justify-between ${
+                className={`w-full h-fit fixed top-0 left-0 z-30 transition-all duration-200 py-4 px-5 lg:px-14 flex items-center justify-between ${
                     isScrolled
-                        ? 'bg-white shadow-sm'
-                        : 'bg-transparent shadow-none'
+                        ? 'bg-white/80 backdrop-blur shadow-sm'
+                        : 'bg-transparent'
                 }`}
             >
                 {/* Logo and Name */}
@@ -105,6 +102,13 @@ export default function Header() {
                                         href={navitem.link}
                                     >
                                         {navitem.text}
+                                        <div
+                                            className={`absolute w-full h-[2px] ${
+                                                pathname === navitem.link
+                                                    ? 'scale-x-100'
+                                                    : 'scale-x-0'
+                                            } bottom-0 left-0 bg-stone-600 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left`}
+                                        />
                                     </Link>
                                 </li>
                             )
