@@ -2,15 +2,17 @@
 
 import Link from 'next/link'
 import TextReveal from '@/components/Other/TextReveal'
-import { announcements } from '@/constants/mode'
 import { motion } from 'framer-motion'
+import { announcementService } from '@/services/announcementService'
 
 export default function Announcement() {
+    const announcements = announcementService.getAllAnnouncements()
+
     return (
         <>
             <section
                 id="announcement"
-                className="w-full flex flex-col px-14 py-24 gap-4"
+                className="w-full min-h-screen flex flex-col px-14 py-24 gap-4"
             >
                 {/* Heading */}
                 <div className="w-full flex items-end justify-between gap-1">
@@ -45,26 +47,28 @@ export default function Announcement() {
                                     amount: 'some',
                                     once: true,
                                 }}
-                                className="w-full flex flex-col border-b py-4 lg:py-6 gap-0.5"
+                                className="w-full flex flex-col border-b py-4 lg:py-6 gap-3"
                             >
-                                <div className="w-fit flex gap-0.5 items-center text-xs text-stone-500 font-medium">
-                                    <span>{announcement.date}</span>|
-                                    <span>{announcement.time}</span>
+                                <div className="flex flex-col">
+                                    <div className="w-fit flex gap-0.5 items-center text-xs text-stone-500 font-medium">
+                                        <span>{announcement.date}</span>|
+                                        <span>{announcement.time}</span>
+                                    </div>
+                                    <Link
+                                        href={`/pengumuman/${announcement.id}`}
+                                        className="flex w-fit gap-1 items-center"
+                                    >
+                                        <span className="text-base font-semibold">
+                                            {announcement.title}
+                                        </span>
+                                    </Link>
                                 </div>
-                                <Link
-                                    href={`/pengumuman/${announcement.id}`}
-                                    className="flex w-fit gap-1 items-center"
-                                >
-                                    <span className="text-base font-semibold">
-                                        {announcement.name}
-                                    </span>
-                                </Link>
-                                <span className="text-sm block font-medium text-stone-700 mt-4">
+                                <span className="text-sm block font-medium text-stone-700">
                                     {announcement.desc}
                                 </span>
                                 <Link
                                     href={`/pengumuman/${announcement.id}`}
-                                    className="text-blue-800 text-sm font-medium mt-2"
+                                    className="text-blue-800 text-sm font-medium"
                                 >
                                     Baca selengkapnya
                                 </Link>

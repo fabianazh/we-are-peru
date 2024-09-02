@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { navItems } from '@/constants/component'
 import { motion } from 'framer-motion'
+import AppIcon from '@/components/Icon/AppIcon'
 
 export default function Footer() {
     const currentYear = new Date().getFullYear()
@@ -14,12 +15,7 @@ export default function Footer() {
                 className={`flex flex-col relative px-5 gap-1 lg:px-16 py-4 lg:py-6`}
             >
                 <nav className="w-full flex flex-col lg:flex-row justify-between lg:items-center lg:gap-4">
-                    <Link
-                        href={`https://we-are-peru.vercel.app`}
-                        className="text-sm font-semibold"
-                    >
-                        WeArePeru.
-                    </Link>
+                    <AppIcon />
                     <ul className="w-fit flex gap-2 lg:gap-4">
                         {navItems.map(
                             (

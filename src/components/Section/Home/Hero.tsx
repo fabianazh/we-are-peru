@@ -19,11 +19,11 @@ export default function Hero() {
                             >
                                 WeArePeru!
                             </h1>
-                            <div className="w-full flex flex-col">
+                            {/* <div className="w-full flex flex-col">
                                 <span className="font-medium text-xl">
                                     &quot;Kelompok Peru Jaya! Jaya! Jaya!&quot;
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="w-fit gap-4 items-center flex"></div>
                     </div>

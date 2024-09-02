@@ -7,6 +7,7 @@ import NavButton from '@/components/Partials/NavButton'
 import Link from 'next/link'
 import { navItems } from '@/constants/component'
 import { usePathname } from 'next/navigation'
+import AppIcon from '@/components/Icon/AppIcon'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -81,30 +82,25 @@ export default function Header() {
                 }`}
             >
                 {/* Logo and Name */}
-                <Link
-                    href={'https://fabianazh.vercel.app'}
-                    className={`text-sm text-black w-fit h-fit inline-block font-medium lg:font-semibold group`}
-                >
-                    WeArePeru.
-                </Link>
+                <AppIcon />
                 {/* End Logo and Name */}
                 {/* Navbar */}
                 <nav className="w-fit hidden lg:flex z-0">
                     <ul className="w-fit flex gap-2 lg:gap-4">
                         {navItems.map(
                             (
-                                navitem: { link: string; text: string },
+                                navItem: { link: string; text: string },
                                 index: number
                             ) => (
                                 <li key={index}>
                                     <Link
                                         className={`group text-[0.8em] cursor-pointer relative text-black font-medium`}
-                                        href={navitem.link}
+                                        href={navItem.link}
                                     >
-                                        {navitem.text}
+                                        {navItem.text}
                                         <div
                                             className={`absolute w-full h-[2px] ${
-                                                pathname === navitem.link
+                                                pathname === navItem.link
                                                     ? 'scale-x-100'
                                                     : 'scale-x-0'
                                             } bottom-0 left-0 bg-stone-600 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left`}
