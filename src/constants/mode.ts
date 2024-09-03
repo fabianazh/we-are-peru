@@ -20,4 +20,18 @@ export const announcements = [
             'Pemandu yel-yel adalah Yovi',
         ],
     },
+    {
+        id: 'pengumuman-perubahan-rencana-take-video-tugas-kelompok',
+        title: 'Pengumuman perubahan rencana take video tugas kelompok',
+        desc: 'Pada hari Senin tanggal 02 September 2024, beberapa pengurus inti kelompok Peru mengadakan pertemuan dan membahas hal-hal yang berkaitan dengan rencana take video kelompok. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
+        date: 'Senin, 2 September 2024',
+        time: '19.00 WIB',
+        announcements: [
+            'Dresscode take video adalah atasan hitam dan bawahan hitam untuk laki-laki maupun perempuan',
+            'Ciri khas kelompok akan dibuat oleh Aulia dan anggota kelompok yang lain hany membayar iuran saja',
+            'Tempat take video adalah di Situ Gunung',
+            'Titik kumpul sebelum ke Situ Gunung adalah di Alun-Alun Cisaat',
+            'Semua anggota hadir di titk kumpul pada pukul 9.30 WIB',
+        ],
+    },
 ]

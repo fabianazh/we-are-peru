@@ -138,11 +138,11 @@ export default function NavModal({
                                     animate="enter"
                                     exit="exit"
                                     initial="initial"
-                                    className="text-sm lg:text-sm"
+                                    className="text-sm lg:text-sm font-medium text-stone-700"
                                 >
                                     &copy; {new Date().getFullYear()} Fabian
                                     Azhar.{' '}
-                                    <span className="inline-block lg:block">
+                                    <span className="block lg:block">
                                         All rights reserved.
                                     </span>
                                 </motion.span>
