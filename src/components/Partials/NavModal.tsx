@@ -20,28 +20,24 @@ export default function NavModal({
                 variants={{
                     open: {
                         opacity: 1,
-                        x: 'var(--nav-x-open, 0px)',
-                        y: 'var(--nav-y-open, 0px)',
+                        y: 0,
                         transition: {
-                            x: { duration: 0.3, ease: 'easeOut' },
-                            y: { duration: 0.4, ease: 'easeOut' },
+                            y: { duration: 0.3, ease: 'easeOut' },
                             opacity: { duration: 0.4 },
                         },
                     },
                     closed: {
                         opacity: 0,
-                        x: 'var(--nav-x-closed)',
-                        y: 'var(--nav-y-closed)',
+                        y: '60px',
                         transition: {
-                            x: { duration: 0.2, ease: 'easeOut' },
-                            y: { duration: 0.4, ease: 'easeOut' },
+                            y: { duration: 0.2, ease: 'easeOut' },
                             opacity: { duration: 0.4 },
                         },
                     },
                 }}
                 animate={isOpen ? 'open' : 'closed'}
                 initial="closed"
-                className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto px-4 lg:px-0 [--nav-y-closed:40px] [--nav-x-closed:0px] [--nav-y-open:0px] lg:[--nav-y-closed:0px] lg:[--nav-x-closed:60px] lg:[--nav-x-open:0px]`}
+                className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto px-4 lg:px-0`}
             >
                 <AnimatePresence>
                     {isOpen && (

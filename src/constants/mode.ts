@@ -17,7 +17,7 @@ export const announcements = [
             'IG kelompok bertemakan alam',
             'Tugas video pentas seni adalah nari yang akan dibawakan oleh Intan',
             'Pembuatan Yel-yel kelompok',
-            'Pemandu yel-yel adalah Yovi',
+            'Pemandu Yel-yel adalah Yovi',
         ],
     },
     {

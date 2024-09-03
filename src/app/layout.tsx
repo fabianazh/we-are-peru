@@ -3,6 +3,7 @@ import './globals.css'
 import Footer from '@/components/Partials/Footer'
 import { dmSans } from './fonts'
 import Header from '@/components/Partials/Header'
+import SmoothScroll from '@/components/Other/SmoothScroll'
 
 export const metadata: Metadata = {
     title: 'We Are Peru!',
@@ -17,6 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={dmSans.className}>
+                <SmoothScroll />
                 <Header />
                 <main>{children}</main>
                 <Footer />

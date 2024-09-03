@@ -8,10 +8,6 @@ export const navItems = [
         text: 'Informasi',
     },
     {
-        link: '/absensi',
-        text: 'Absensi',
-    },
-    {
         link: '/announcement',
         text: 'Pengumuman',
     },
