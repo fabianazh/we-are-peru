@@ -33,5 +33,6 @@ export const announcements = [
             'Titik kumpul sebelum ke Situ Gunung adalah di Alun-Alun Cisaat',
             'Semua anggota hadir di titk kumpul pada pukul 9.30 WIB',
         ],
+        summaries: [],
     },
 ]

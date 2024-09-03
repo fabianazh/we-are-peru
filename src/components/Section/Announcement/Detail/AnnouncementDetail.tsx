@@ -47,7 +47,7 @@ export default function AnnouncementDetail({
                         text={`${announcement?.desc}`}
                     />
                     {/* Announcements */}
-                    {announcement?.announcements && (
+                    {(announcement?.announcements.length ?? 0) > 0 && (
                         <div className="w-fit flex flex-col py-1">
                             <motion.span
                                 initial={{
@@ -101,7 +101,7 @@ export default function AnnouncementDetail({
                     )}
                     {/* End Announcements */}
                     {/* Summaries */}
-                    {announcement?.summaries && (
+                    {(announcement?.summaries.length ?? 0) > 0 && (
                         <div className="w-fit flex flex-col py-1">
                             <motion.span
                                 initial={{
