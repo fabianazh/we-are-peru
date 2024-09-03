@@ -4,16 +4,13 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import NavButton from '@/components/Partials/NavButton'
-import Link from 'next/link'
-import { navItems } from '@/constants/component'
-import { usePathname } from 'next/navigation'
 import AppIcon from '@/components/Icon/AppIcon'
+import Navbar from './Navbar'
+import NavModal from './NavModal'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const [isScrolled, setIsScrolled] = useState<boolean>(false)
-
-    const pathname = usePathname()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -64,9 +61,9 @@ export default function Header() {
                 )}
             </AnimatePresence>
             {/* End Overlay */}
-            {/* Navbar */}
-            {/* <Navbar isOpen={isOpen} setIsOpen={setIsOpen} /> */}
-            {/* Navbar */}
+            {/* Navbar Modal */}
+            <NavModal isOpen={isOpen} setIsOpen={setIsOpen} />
+            {/* Navbar Modal */}
             {/* Header */}
             <motion.header
                 // variants={{
@@ -85,32 +82,12 @@ export default function Header() {
                 <AppIcon />
                 {/* End Logo and Name */}
                 {/* Navbar */}
-                <nav className="w-fit hidden lg:flex z-0">
-                    <ul className="w-fit flex gap-2 lg:gap-4">
-                        {navItems.map(
-                            (
-                                navItem: { link: string; text: string },
-                                index: number
-                            ) => (
-                                <li key={index}>
-                                    <Link
-                                        className={`group text-[0.8em] cursor-pointer relative text-black font-medium`}
-                                        href={navItem.link}
-                                    >
-                                        {navItem.text}
-                                        <div
-                                            className={`absolute w-full h-[2px] ${
-                                                pathname === navItem.link
-                                                    ? 'scale-x-100'
-                                                    : 'scale-x-0'
-                                            } bottom-0 left-0 bg-stone-600 origin-bottom-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-bottom-left`}
-                                        />
-                                    </Link>
-                                </li>
-                            )
-                        )}
-                    </ul>
-                </nav>
+                <Navbar />
+                <NavButton
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    containerClassName="flex lg:hidden"
+                />
                 {/* End Navbar */}
 
                 {/* Nav Button */}

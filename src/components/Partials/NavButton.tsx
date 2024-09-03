@@ -4,10 +4,12 @@ export default function NavButton({
     isOpen,
     setIsOpen,
     className = 'w-4 h-4',
+    containerClassName,
 }: {
     isOpen: boolean
     setIsOpen: (isopen: boolean) => void
     className?: string
+    containerClassName?: string
 }) {
     return (
         <>
@@ -15,7 +17,7 @@ export default function NavButton({
             <motion.div
                 initial={false}
                 animate={isOpen ? 'open' : 'closed'}
-                className={`relative flex items-center w-fit h-full shrink-0`}
+                className={`relative flex items-center w-fit h-full shrink-0 ${containerClassName}`}
             >
                 <button
                     onClick={() => setIsOpen(!isOpen)}

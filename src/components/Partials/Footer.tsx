@@ -58,7 +58,7 @@ export default function Footer() {
                         <Link href={`https://fabianazh.vercel.app`}>
                             Fabianazh
                         </Link>
-                        .
+                        . All rights reserved.
                     </span>
                 </div>
             </footer>

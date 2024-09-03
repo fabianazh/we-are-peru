@@ -7,7 +7,7 @@ export default function Structure() {
         <>
             <section
                 id="structure"
-                className="w-full flex flex-col px-14 py-24 gap-4"
+                className="w-full flex flex-col px-5 lg:px-14 py-24 gap-4"
             >
                 <div className="w-full flex items-end justify-between gap-1">
                     <div className="w-full flex flex-col gap-1">

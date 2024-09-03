@@ -10,7 +10,7 @@ export default function About() {
         <>
             <section
                 id="about"
-                className="w-full flex flex-col px-14 py-16 gap-4"
+                className="w-full flex flex-col px-5 lg:px-14 py-16 gap-4"
             >
                 <div className="w-full flex items-end justify-between gap-1">
                     <div className="w-full flex flex-col gap-1">

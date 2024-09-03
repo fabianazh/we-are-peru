@@ -12,7 +12,7 @@ export default function Announcement() {
         <>
             <section
                 id="announcement"
-                className="w-full min-h-screen flex flex-col px-14 py-24 gap-4"
+                className="w-full min-h-screen flex flex-col px-5 lg:px-14 py-24 gap-4"
             >
                 {/* Heading */}
                 <div className="w-full flex items-end justify-between gap-1">

@@ -5,7 +5,7 @@ import { dmSans } from './fonts'
 import Header from '@/components/Partials/Header'
 
 export const metadata: Metadata = {
-    title: 'We Are Peru',
+    title: 'We Are Peru!',
     description: 'This is group of Peru',
 }
 

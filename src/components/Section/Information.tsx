@@ -6,7 +6,7 @@ export default function Information() {
         <>
             <section
                 id="information"
-                className="w-full flex flex-col px-14 py-16 gap-4"
+                className="w-full flex flex-col px-5 lg:px-14 py-16 gap-4"
             >
                 <h2 className="text-2xl font-semibold">Informasi Lainnya</h2>
                 <div className="w-full h-fit flex justify-between">

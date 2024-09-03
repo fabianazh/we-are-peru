@@ -4,4 +4,6 @@ interface Announcement {
     desc: string
     date: string
     time: string
+    announcements: string[]
+    summaries: string[]
 }
