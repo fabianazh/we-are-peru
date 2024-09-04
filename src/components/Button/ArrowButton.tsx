@@ -13,7 +13,7 @@ export default function ArrowButton({
     return (
         <Link
             href={`${href}`}
-            className="text-xs lg:text-sm flex gap-2 font-semibold items-center w-fit"
+            className="text-sm flex gap-2 font-semibold items-center w-fit"
         >
             {direction === 'left' ? (
                 <>
