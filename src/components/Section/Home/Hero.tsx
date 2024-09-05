@@ -35,7 +35,9 @@ export default function Hero() {
                                 </span>
                             </div>
                             <div className="bg-transparent group border shadow-sm relative flex flex-col lg:flex-row overflow-hidden rounded-xl w-full lg:w-5/12 z-0">
-                                <div className="w-full justify-center lg:w-11/12 flex flex-col p-4 lg:p-6 bg-gradient-to-r from-white via-white to-transparent h-full z-10">
+                                <div
+                                    className={`w-full justify-center lg:w-11/12 flex flex-col p-4 lg:p-6 bg-gradient-to-r from-white via-white to-transparent h-full z-10 ${poppins.className}`}
+                                >
                                     <span className="text-xl font-semibold">
                                         Satu Hati,
                                     </span>
@@ -44,7 +46,9 @@ export default function Hero() {
                                     </span>
                                     <span className="text-xl font-semibold">
                                         Satu{' '}
-                                        <span className={montserrat.className}>
+                                        <span
+                                            className={`font-extrabold ${montserrat.className}`}
+                                        >
                                             per
                                             <span className="text-[#fc0b1e]">
                                                 u
@@ -65,7 +69,7 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className="w-full h-full flex flex-col lg:flex-row gap-4">
-                            <div className="group relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 pb-6 lg:pb-0 w-full lg:w-3/12 border shadow-sm gap-4">
+                            <div className="group relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 pb-6 lg:pb-0 w-full lg:w-3/12 border shadow-sm gap-4 bg-white">
                                 <span className="font-semibold text-xl text-stone-800">
                                     Peta Negara Peru
                                 </span>
@@ -79,7 +83,7 @@ export default function Hero() {
                                     />
                                 </div>
                             </div>
-                            <div className="relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 w-full lg:w-9/12 border shadow-sm gap-6 h-auto">
+                            <div className="relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 w-full lg:w-9/12 border shadow-sm gap-6 h-auto bg-white">
                                 <div className="w-full h-fit flex flex-col lg:flex-row items-start lg:items-end justify-between gap-3 lg:gap-1">
                                     <div className="w-full flex flex-col">
                                         <h2 className="text-lg font-semibold">
@@ -157,7 +161,7 @@ export default function Hero() {
                                 className="h-fit w-full"
                             />
                         </div>
-                        <div className="w-6/12 lg:w-full border shadow-sm relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 flex-grow lg:h-40 lg:shrink-0 gap-2">
+                        <div className="w-6/12 lg:w-full border shadow-sm relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 flex-grow lg:h-40 lg:shrink-0 gap-2 bg-white">
                             <span className="font-semibold text-lg">
                                 Kontak Kami
                             </span>
