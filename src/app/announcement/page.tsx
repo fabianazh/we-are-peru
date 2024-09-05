@@ -1,6 +1,6 @@
 import Announcement from '@/components/Section/Announcement/Announcement'
 
-export default function AnnouncementnPage() {
+export default function AnnouncementPage() {
     return (
         <>
             <Announcement />

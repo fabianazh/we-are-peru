@@ -16,11 +16,16 @@ export default function Information() {
                             <span className="font-semibold">
                                 Pengumuman & Rangkuman
                             </span>
-                            <span className="text-sm font-medium">
-                                Lorem ipsum dolor sit, amet consectetur
-                                adipisicing elit. Deserunt ipsum delectus
-                                dignissimos qui cum repellendus aliquid beatae
-                                incidunt corporis quisquam.
+                            <span className="text-sm font-normal ">
+                                Selamat datang di WeArePeru! Kami adalah
+                                kelompok mahasiswa yang penuh semangat dan tekad
+                                untuk meraih kesuksesan bersama. Sebagai bagian
+                                dari MABIM (Masa Bimbingan) kampus, kelompok
+                                kami, Peru, terbentuk dari berbagai latar
+                                belakang dan keahlian, namun disatukan oleh
+                                tujuan yang sama: belajar, berkolaborasi, dan
+                                saling mendukung dalam perjalanan akademik dan
+                                kehidupan kampus.
                             </span>
                             <Link
                                 href={'/'}

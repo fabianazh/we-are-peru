@@ -12,6 +12,7 @@ export default function AnnouncementDetail({
 }) {
     const announcement =
         announcementService.getAnnouncementDetail(announcementId)
+
     return (
         <>
             <section className="w-full h-fit flex gap-2 items-center justify-between pt-20 lg:pt-24 px-5 lg:px-14">
@@ -21,7 +22,7 @@ export default function AnnouncementDetail({
             </section>
             <section
                 id="announcement"
-                className="w-full min-h-screen flex flex-col px-5 lg:px-14 py-10 gap-6"
+                className="w-full h-fit flex flex-col px-5 lg:px-14 py-10 gap-6"
             >
                 {/* Heading */}
                 <div className="w-full flex items-end justify-between gap-1">
@@ -41,9 +42,9 @@ export default function AnnouncementDetail({
                 {/* End Heading */}
 
                 {/* Content */}
-                <div className="w-full flex flex-col gap-2 font-medium text-stone-600">
+                <div className="w-full flex flex-col gap-2 font-normal text-stone-800">
                     <TextReveal
-                        className="font-medium"
+                        className="font-normal"
                         text={`${announcement?.desc}`}
                     />
                     {/* Announcements */}
@@ -91,7 +92,7 @@ export default function AnnouncementDetail({
                                             }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
-                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
+                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-stone-700" />{' '}
                                             {item}
                                         </motion.li>
                                     )
@@ -145,7 +146,7 @@ export default function AnnouncementDetail({
                                             }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
-                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
+                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-stone-700" />{' '}
                                             {item}
                                         </motion.li>
                                     )
@@ -154,7 +155,7 @@ export default function AnnouncementDetail({
                         </div>
                     )}
                     {/* End Summaries */}
-                    <div className="w-fit flex flex-col py-2 text-stone-800">
+                    <div className="w-fit flex flex-col py-2 font-medium text-stone-800">
                         <span>Salam,</span>
                         <span>Sekretaris kelompok Peru.</span>
                     </div>

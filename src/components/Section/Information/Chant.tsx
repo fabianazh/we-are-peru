@@ -11,10 +11,10 @@ export default function Chant() {
             >
                 <div className="w-full flex items-end justify-between gap-1">
                     <div className="w-full flex flex-col gap-1">
-                        <h2 className="text-2xl font-semibold">Chant</h2>
+                        <h2 className="text-2xl font-semibold">Yel-Yel</h2>
                         <TextReveal
-                            className="font-medium"
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique ea voluptate possimus, explicabo nesciunt vitae fugiat nisi ex iure ipsa rem debitis obcaecati. Minus quidem suscipit dignissimos, ad, necessitatibus molestiae soluta inventore quibusdam blanditiis dicta laborum, explicabo atque vero autem architecto recusandae repellendus excepturi tempore. Culpa ullam eius suscipit!"
+                            className="font-medium text-stone-600"
+                            text="Yel-yel adalah cerminan semangat dan kekompakan Kelompok Peru. Setiap teriakan adalah langkah menuju kemenangan dan kebersamaan yang tak tergoyahkan."
                         />
                     </div>
                 </div>

@@ -5,9 +5,9 @@ import Structure from '@/components/Section/Information/Structure'
 export default function InformationPage() {
     return (
         <>
-            {/* <About />
-            <Structure />
-            <Chant /> */}
+            <About />
+            {/* <Structure /> */}
+            <Chant />
         </>
     )
 }

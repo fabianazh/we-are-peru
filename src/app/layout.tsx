@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Footer from '@/components/Partials/Footer'
-import { dmSans } from './fonts'
+import { poppins } from './fonts'
 import Header from '@/components/Partials/Header'
 import SmoothScroll from '@/components/Other/SmoothScroll'
 
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={dmSans.className}>
+            <body className={poppins.className}>
                 <SmoothScroll />
                 <Header />
                 <main>{children}</main>

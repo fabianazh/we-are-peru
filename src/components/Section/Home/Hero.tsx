@@ -6,6 +6,10 @@ import { motion } from 'framer-motion'
 import PrimaryButton from '@/components/Button/PrimaryButton'
 import SecondaryButton from '@/components/Button/SecondaryButton'
 import TextReveal from '@/components/Other/TextReveal'
+import Link from 'next/link'
+import { GrInstagram } from 'react-icons/gr'
+import { FaTiktok } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
 
 export default function Hero() {
     return (
@@ -23,7 +27,7 @@ export default function Hero() {
                                 >
                                     Selamat Datang!
                                 </h1>
-                                <span className="font-medium text-stone-500 text-sm lg:text-base">
+                                <span className="font-normal text-stone-500 text-sm lg:text-base">
                                     Temukan semangat kebersamaan dan prestasi
                                     Kelompok Peru. Jelajahi informasi, struktur,
                                     yel-yel, pengumuman, dan dokumentasi
@@ -32,13 +36,13 @@ export default function Hero() {
                             </div>
                             <div className="bg-transparent group border shadow-sm relative flex flex-col lg:flex-row overflow-hidden rounded-xl w-full lg:w-5/12 z-0">
                                 <div className="w-full justify-center lg:w-11/12 flex flex-col p-4 lg:p-6 bg-gradient-to-r from-white via-white to-transparent h-full z-10">
-                                    <span className="text-xl font-bold">
+                                    <span className="text-xl font-semibold">
                                         Satu Hati,
                                     </span>
-                                    <span className="text-xl font-bold">
+                                    <span className="text-xl font-semibold">
                                         Satu Tekad,
                                     </span>
-                                    <span className="text-xl font-bold">
+                                    <span className="text-xl font-semibold">
                                         Satu{' '}
                                         <span className={montserrat.className}>
                                             per
@@ -77,12 +81,12 @@ export default function Hero() {
                             </div>
                             <div className="relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 w-full lg:w-9/12 border shadow-sm gap-6 h-auto">
                                 <div className="w-full h-fit flex flex-col lg:flex-row items-start lg:items-end justify-between gap-3 lg:gap-1">
-                                    <div className="w-full flex flex-col gap-1">
-                                        <h2 className="text-xl lg:text-2xl font-semibold">
+                                    <div className="w-full flex flex-col">
+                                        <h2 className="text-lg font-semibold">
                                             Galeri
                                         </h2>
                                         <TextReveal
-                                            className="text-sm lg:text-base font-medium"
+                                            className="text-sm lg:text-sm font-medium text-stone-600"
                                             text="Temukan momen terbaik yang kami abadikan di bawah sini."
                                         />
                                     </div>
@@ -157,16 +161,32 @@ export default function Hero() {
                             <span className="font-semibold text-lg">
                                 Kontak Kami
                             </span>
-                            <div className="w-full flex flex-col gap-1">
-                                <SecondaryButton href="/" className="text-sm">
-                                    Instagram
-                                </SecondaryButton>
-                                <SecondaryButton href="/" className="text-sm">
-                                    Tiktok
-                                </SecondaryButton>
-                                <SecondaryButton href="/" className="text-sm">
-                                    YouTube
-                                </SecondaryButton>
+                            <div className="w-full flex flex-col gap-3">
+                                <Link
+                                    href="https://instagram.com/thisisperupride_"
+                                    className="text-sm flex items-center gap-2"
+                                >
+                                    <GrInstagram className="text-xs" />
+                                    <span className="font-medium">
+                                        thisisperupride_
+                                    </span>
+                                </Link>
+                                <Link
+                                    href="/"
+                                    className="text-sm flex items-center gap-2"
+                                >
+                                    <FaTiktok />
+                                    <span className="font-medium">
+                                        thisisperupride
+                                    </span>
+                                </Link>
+                                <Link
+                                    href="/"
+                                    className="text-sm flex items-center gap-2"
+                                >
+                                    <FaYoutube />
+                                    <span className="font-medium">peru.</span>
+                                </Link>
                             </div>
                         </div>
                     </div>

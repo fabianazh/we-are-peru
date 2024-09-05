@@ -16,7 +16,7 @@ export default function PrimaryButton({
         <>
             <Link
                 href={`${href}`}
-                className={`w-fit flex items-center justify-center gap-1 font-medium text-xs bg-stone-200/50 hover:bg-black hover:text-white transition-colors duration-300 px-4 shadow-sm rounded-full py-1 ${className}`}
+                className={`w-fit flex items-center justify-center gap-1 font-medium text-xs bg-stone-200 hover:bg-black hover:text-white transition-colors duration-300 px-4 shadow-sm rounded-full py-1 ${className}`}
             >
                 {children}
                 <IoArrowUpOutline className="rotate-45 text-sm" />

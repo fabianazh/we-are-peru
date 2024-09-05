@@ -21,7 +21,7 @@ export default function Announcement() {
                             Pengumuman & Rangkuman
                         </h2>
                         <TextReveal
-                            className="font-medium"
+                            className="font-medium text-stone-600"
                             text="Temukan pengumuman & rangkuman hasil rapat kelompok kami di bawah sini."
                         />
                     </div>
