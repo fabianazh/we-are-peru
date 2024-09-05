@@ -4,6 +4,7 @@ import Link from 'next/link'
 import TextReveal from '@/components/Other/TextReveal'
 import { motion } from 'framer-motion'
 import { announcementService } from '@/services/announcementService'
+import Image from 'next/image'
 
 export default function Announcement() {
     const announcements = announcementService.getAllAnnouncements()
@@ -12,7 +13,7 @@ export default function Announcement() {
         <>
             <section
                 id="announcement"
-                className="w-full min-h-screen flex flex-col px-5 lg:px-14 py-24 gap-4"
+                className="w-full min-h-screen flex flex-col px-5 lg:px-14 py-24 gap-4 lg:gap-8"
             >
                 {/* Heading */}
                 <div className="w-full flex items-end justify-between gap-1">
@@ -27,7 +28,7 @@ export default function Announcement() {
                 {/* End Heading */}
 
                 {/* Content */}
-                <div className="w-full flex gap-6"></div>
+
                 {/* End Content */}
             </section>
         </>

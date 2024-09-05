@@ -7,3 +7,12 @@ interface Announcement {
     announcements: string[]
     summaries: string[]
 }
+
+interface Member {
+    id: number
+    name: string
+    role: string
+    major: string
+    src: string
+    instagram: string
+}
