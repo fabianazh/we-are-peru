@@ -91,7 +91,7 @@ export default function Hero() {
                                         />
                                     </div>
                                     <PrimaryButton
-                                        href={'/galeri'}
+                                        href={'/gallery'}
                                         className="text-sm w-fit shrink-0"
                                     >
                                         Temukan lebih
@@ -177,7 +177,7 @@ export default function Hero() {
                                 >
                                     <FaTiktok />
                                     <span className="font-semibold text-stone-600">
-                                        thisisperupride
+                                        thisisperu_45
                                     </span>
                                 </Link>
                                 <Link
