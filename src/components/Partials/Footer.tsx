@@ -12,7 +12,7 @@ export default function Footer() {
         <>
             <footer
                 id="footer"
-                className={`flex flex-col relative px-5 gap-1 lg:px-16 py-4 lg:py-6`}
+                className={`flex flex-col relative px-5 gap-1 lg:px-14 py-4 lg:py-6`}
             >
                 <nav className="w-full flex flex-col lg:flex-row justify-between lg:items-center lg:gap-4">
                     <AppIcon />

@@ -1,7 +1,7 @@
 'use client'
 
 import TextReveal from '@/components/Other/TextReveal'
-import { members } from '@/constants/mode'
+import { members } from '@/constants/model'
 import Image from 'next/image'
 
 export default function Structure() {
@@ -34,19 +34,18 @@ export default function Structure() {
                                     alt={`${member.name}`}
                                     width={200}
                                     height={200}
-                                    className="h-full w-full absolute"
+                                    className="h-fit w-full absolute"
                                 ></Image>
                             </div>
-                            <div className="flex flex-col-reverse lg:flex-col gap-0.5">
-                                <div className="w-full flex flex-col lg:flex-row lg:items-center gap-0.5 lg:gap-1 text-xs lg:text-sm text-stone-600 font-medium">
-                                    <span>{member.role}</span>
-                                    <span className="hidden lg:inline-block">
-                                        /
-                                    </span>
-                                    <span>{member.major}</span>
-                                </div>
+                            <div className="flex flex-col gap-0.5">
                                 <span className="text-sm lg:text-base font-semibold">
                                     {member.name}
+                                </span>
+                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-medium">
+                                    {member.role}
+                                </span>
+                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
+                                    {member.major}
                                 </span>
                             </div>
                         </div>

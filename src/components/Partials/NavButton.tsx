@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export default function NavButton({
     isOpen,
     setIsOpen,
-    className = 'w-4.5 h-4.5',
+    className = 'w-4 h-4',
     containerClassName,
 }: {
     isOpen: boolean

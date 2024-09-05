@@ -1,4 +1,4 @@
-import { announcements } from '@/constants/mode'
+import { announcements } from '@/constants/model'
 
 export const announcementService = {
     getAllAnnouncements: () => announcements,

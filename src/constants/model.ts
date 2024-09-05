@@ -51,7 +51,7 @@ export const members = [
         name: 'Zalfan Adisaki',
         role: 'Ketua',
         major: 'Akutansi',
-        src: '/img/member/zalfan.jpg',
+        src: '/img/member/zalfan.png',
         instagram: 'zalfan_adisaki',
     },
     {
@@ -59,7 +59,7 @@ export const members = [
         name: 'Nur Aulia Sholihah Hasyi',
         role: 'Wakil Ketua',
         major: 'Hukum',
-        src: '/img/member/nur_aulia.jpg',
+        src: '/img/member/aulia.jpg',
         instagram: 'nuraauliaash_',
     },
     {
@@ -91,7 +91,7 @@ export const members = [
         name: 'Dahlia Nurohmawati Putri',
         role: 'Publish',
         major: 'Manajemen',
-        src: '/img/member/dahliaa.jpg',
+        src: '/img/member/dahlia.jpg',
         instagram: 'dahliaaputrii_',
     },
     {
@@ -179,7 +179,7 @@ export const members = [
         name: 'Fajar Danuar Permana',
         role: 'Anggota',
         major: 'Teknik Informatika',
-        src: '/img/member/fajar.jpg',
+        src: '/img/member/fajar.png',
         instagram: 'fdanuarp',
     },
     {
@@ -203,7 +203,7 @@ export const members = [
         name: 'Mella',
         role: 'Anggota',
         major: 'Manajemen',
-        src: '/img/member/mella.jpg',
+        src: '/img/member/mella.png',
         instagram: 'Mellamaulia18',
     },
     {
@@ -251,7 +251,7 @@ export const members = [
         name: 'Nur Azhmi Octavia',
         role: 'Anggota',
         major: 'Hukum',
-        src: '/img/member/azhmi.jpg',
+        src: '/img/member/nur.jpg',
         instagram: 'cheoctavi',
     },
     {
@@ -309,5 +309,13 @@ export const members = [
         major: 'Teknik Sipil',
         src: '/img/member/iva.jpg',
         instagram: 'ivnrraa_',
+    },
+    {
+        id: 34,
+        name: 'Riswan Maulana',
+        role: 'Anggota',
+        major: 'Teknik Sipil',
+        src: '/img/member/riswan.jpg',
+        instagram: 'riswan4415',
     },
 ]
