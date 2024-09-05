@@ -33,18 +33,14 @@ export default function AnnouncementDetail({
                         <span className="text-sm text-stone-700 font-medium">
                             {announcement?.date} | {announcement?.time}
                         </span>
-                        {/* <TextReveal
-                            className="font-medium"
-                            text="Temukan pengumuman & rangkuman hasil rapat kelompok kami di bawah sini."
-                        /> */}
                     </div>
                 </div>
                 {/* End Heading */}
 
                 {/* Content */}
-                <div className="w-full flex flex-col gap-2 font-normal text-stone-800">
+                <div className="w-full flex flex-col gap-2 font-medium text-stone-600">
                     <TextReveal
-                        className="font-normal"
+                        className="font-medium"
                         text={`${announcement?.desc}`}
                     />
                     {/* Announcements */}
@@ -92,7 +88,7 @@ export default function AnnouncementDetail({
                                             }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
-                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-stone-700" />{' '}
+                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
                                             {item}
                                         </motion.li>
                                     )
@@ -146,7 +142,7 @@ export default function AnnouncementDetail({
                                             }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
-                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-stone-700" />{' '}
+                                            <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
                                             {item}
                                         </motion.li>
                                     )
@@ -155,7 +151,7 @@ export default function AnnouncementDetail({
                         </div>
                     )}
                     {/* End Summaries */}
-                    <div className="w-fit flex flex-col py-2 font-medium text-stone-800">
+                    <div className="w-fit flex flex-col py-2 text-stone-800">
                         <span>Salam,</span>
                         <span>Sekretaris kelompok Peru.</span>
                     </div>

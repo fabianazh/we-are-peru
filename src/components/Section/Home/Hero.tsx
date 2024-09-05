@@ -16,7 +16,7 @@ export default function Hero() {
         <>
             <section
                 id="home"
-                className="w-full min-h-screen flex items-center px-5 pt-24 lg:pt-6 lg:px-14 gap-4 mb-16"
+                className="w-full min-h-screen flex items-center px-5 pt-24 lg:pt-6 lg:px-14 gap-4 mb-16 lg:mb-0"
             >
                 <div className="flex flex-col lg:flex-row gap-4 w-full h-full">
                     <div className="h-auto flex flex-col gap-4 w-full lg:w-9/12 flex-auto">
@@ -66,7 +66,7 @@ export default function Hero() {
                         </div>
                         <div className="w-full h-full flex flex-col lg:flex-row gap-4">
                             <div className="group relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 pb-6 lg:pb-0 w-full lg:w-3/12 border shadow-sm gap-4">
-                                <span className="font-semibold text-xl">
+                                <span className="font-semibold text-xl text-stone-800">
                                     Peta Negara Peru
                                 </span>
                                 <div className="w-6/12 lg:w-full mx-auto h-fit px-8">
@@ -167,7 +167,7 @@ export default function Hero() {
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <GrInstagram className="text-xs" />
-                                    <span className="font-medium">
+                                    <span className="font-semibold text-stone-600">
                                         thisisperupride_
                                     </span>
                                 </Link>
@@ -176,7 +176,7 @@ export default function Hero() {
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <FaTiktok />
-                                    <span className="font-medium">
+                                    <span className="font-semibold text-stone-600">
                                         thisisperupride
                                     </span>
                                 </Link>
@@ -185,7 +185,9 @@ export default function Hero() {
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <FaYoutube />
-                                    <span className="font-medium">peru.</span>
+                                    <span className="font-semibold text-stone-600">
+                                        peru.
+                                    </span>
                                 </Link>
                             </div>
                         </div>
