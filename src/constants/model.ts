@@ -89,6 +89,7 @@ export const members = [
     {
         id: 0,
         name: 'Ridzky Muhammad Anwar',
+        nickname: 'Ridzky',
         role: 'Mentor',
         major: 'Manajemen',
         src: '/img/member/ridzky.png',
@@ -97,6 +98,7 @@ export const members = [
     {
         id: 1,
         name: 'Zalfan Adisaki',
+        nickname: 'Zalfan',
         role: 'Ketua',
         major: 'Akutansi',
         src: '/img/member/zalfan.png',
@@ -105,6 +107,7 @@ export const members = [
     {
         id: 2,
         name: 'Nur Aulia Sholihah Hasyi',
+        nickname: 'Aulia',
         role: 'Wakil Ketua',
         major: 'Hukum',
         src: '/img/member/aulia.png',
@@ -113,6 +116,7 @@ export const members = [
     {
         id: 33,
         name: 'Iva Nuraeni',
+        nickname: 'Iva',
         role: 'Sekretaris',
         major: 'Teknik Sipil',
         src: '/img/member/iva.png',
@@ -121,6 +125,7 @@ export const members = [
     {
         id: 4,
         name: 'Rista Julia Moniq Pratama',
+        nickname: 'Rista',
         role: 'Bendahara',
         major: 'PGSD',
         src: '/img/member/rista.png',
@@ -129,6 +134,7 @@ export const members = [
     {
         id: 5,
         name: 'Zaskia Bulan Pratama',
+        nickname: 'Qia',
         role: 'Publish',
         major: 'Teknik Informatika',
         src: '/img/member/zaskia.jpg',
@@ -137,6 +143,7 @@ export const members = [
     {
         id: 6,
         name: 'Dahlia Nurohmawati Putri',
+        nickname: 'Dahlia',
         role: 'Publish',
         major: 'Manajemen',
         src: '/img/member/dahlia.png',
@@ -145,6 +152,7 @@ export const members = [
     {
         id: 7,
         name: 'Muhammad Alfarizzi Sutisna',
+        nickname: 'Alfarizzi',
         role: 'Dokumentasi',
         major: 'Teknik Informatika',
         src: '/img/member/alfarizzi.png',
@@ -153,6 +161,7 @@ export const members = [
     {
         id: 8,
         name: 'Arizal Afsal',
+        nickname: 'Arizal',
         role: 'Desain',
         major: 'Sistem Informasi',
         src: '/img/member/arizal.png',
@@ -161,6 +170,7 @@ export const members = [
     {
         id: 9,
         name: 'Muhammad Fabian Azhar',
+        nickname: 'Fabian',
         role: 'Desain',
         major: 'Sistem Informasi',
         src: '/img/member/fabian.jpg',
@@ -169,6 +179,7 @@ export const members = [
     {
         id: 10,
         name: 'Hilmy Khairy Fasya',
+        nickname: 'Mii',
         role: 'Keamanan',
         major: 'Manajemen',
         src: '/img/member/hilmy.jpg',
@@ -177,6 +188,7 @@ export const members = [
     {
         id: 11,
         name: 'Ibrahimovic Nur Chandra',
+        nickname: 'Movix',
         role: 'Keamanan',
         major: 'Hukum',
         src: '/img/member/ibrahimovic.png',
@@ -185,6 +197,7 @@ export const members = [
     {
         id: 12,
         name: 'Yovi Andri Dwi Nugraha',
+        nickname: 'Yovi',
         role: 'Keamanan',
         major: 'Teknik Informatika',
         src: '/img/member/yovi.jpg',
@@ -193,6 +206,7 @@ export const members = [
     {
         id: 13,
         name: 'Muhamad Yusup',
+        nickname: 'Yusup',
         role: 'Keamanan',
         major: 'Manajemen',
         src: '/img/member/yusup.png',
@@ -201,6 +215,7 @@ export const members = [
     {
         id: 14,
         name: 'Zahra Nur Fatimah',
+        nickname: 'Ara',
         role: 'Keamanan',
         major: 'Akutansi',
         src: '/img/member/zahra.png',
@@ -209,6 +224,7 @@ export const members = [
     {
         id: 15,
         name: 'Audy Auliany',
+        nickname: 'Audy',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/audy.png',
@@ -217,6 +233,7 @@ export const members = [
     {
         id: 16,
         name: 'Bunga',
+        nickname: 'Bunga',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/bunga.png',
@@ -225,6 +242,7 @@ export const members = [
     {
         id: 17,
         name: 'Diefa Jati Kusumua',
+        nickname: 'Diefa',
         role: 'Anggota',
         major: 'Teknik Elektro',
         src: '/img/member/diefa.png',
@@ -233,6 +251,7 @@ export const members = [
     {
         id: 18,
         name: 'Fajar Danuar Permana',
+        nickname: 'Fajar',
         role: 'Anggota',
         major: 'Teknik Informatika',
         src: '/img/member/fajar.png',
@@ -241,6 +260,7 @@ export const members = [
     {
         id: 19,
         name: 'Fauzan Ferdiansyah',
+        nickname: 'Fauzan',
         role: 'Anggota',
         major: 'Hukum',
         src: '/img/member/fauzan.png',
@@ -249,6 +269,7 @@ export const members = [
     {
         id: 20,
         name: 'Gina Salma',
+        nickname: 'Gina',
         role: 'Anggota',
         major: 'DKV',
         src: '/img/member/gina.jpg',
@@ -257,6 +278,7 @@ export const members = [
     {
         id: 21,
         name: 'Muhammad Affryansa',
+        nickname: 'Iyan',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/affryansa.png',
@@ -265,6 +287,7 @@ export const members = [
     {
         id: 22,
         name: 'Muhammad Gilang Al-Bawafi',
+        nickname: 'Gilang',
         role: 'Anggota',
         major: 'Teknik Sipil',
         src: '/img/member/gilang.png',
@@ -273,6 +296,7 @@ export const members = [
     {
         id: 23,
         name: 'Muhammad Irman',
+        nickname: 'Irman',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/irman.jpg',
@@ -281,6 +305,7 @@ export const members = [
     {
         id: 24,
         name: 'Muhammad Zahran Ramdhani Nurmansyah',
+        nickname: 'Zahran',
         role: 'Anggota',
         major: 'Teknik Sipil',
         src: '/img/member/zahran.png',
@@ -289,6 +314,7 @@ export const members = [
     {
         id: 25,
         name: 'Nabila Fasya Hermawan',
+        nickname: 'Nabila',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/nabila.jpg',
@@ -297,6 +323,7 @@ export const members = [
     {
         id: 26,
         name: 'Nur Azhmi Octavia',
+        nickname: 'Octa',
         role: 'Anggota',
         major: 'Hukum',
         src: '/img/member/azmi.png',
@@ -305,6 +332,7 @@ export const members = [
     {
         id: 27,
         name: 'Nurani',
+        nickname: 'Rani',
         role: 'Anggota',
         major: 'PGSD',
         src: '/img/member/nurani.png',
@@ -313,6 +341,7 @@ export const members = [
     {
         id: 28,
         name: 'Rusdianto Nugraha',
+        nickname: 'Rusdi',
         role: 'Anggota',
         major: 'Akutansi',
         src: '/img/member/rusdianto.png',
@@ -321,6 +350,7 @@ export const members = [
     {
         id: 29,
         name: 'Sabrina Nauran Haq',
+        nickname: 'Sabrina',
         role: 'Anggota',
         major: 'Hukum',
         src: '/img/member/sabrina.png',
@@ -329,6 +359,7 @@ export const members = [
     {
         id: 30,
         name: 'Salsabila Devina Salma',
+        nickname: 'Salsabila',
         role: 'Anggota',
         major: 'Teknik Informatika',
         src: '/img/member/salsabila.png',
@@ -337,6 +368,7 @@ export const members = [
     {
         id: 31,
         name: 'Siti Liani',
+        nickname: 'Siti',
         role: 'Anggota',
         major: 'PGSD',
         src: '/img/member/siti.png',
@@ -345,6 +377,7 @@ export const members = [
     {
         id: 32,
         name: 'Intan Apriliani',
+        nickname: 'Intan',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/intan.png',
@@ -353,6 +386,7 @@ export const members = [
     {
         id: 33,
         name: 'Mella Maulia Nursaputri',
+        nickname: 'Mella',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/mella.png',
@@ -361,6 +395,7 @@ export const members = [
     {
         id: 34,
         name: 'Riswan Maulana',
+        nickname: 'Riswan',
         role: 'Anggota',
         major: 'Teknik Sipil',
         src: '/img/member/riswan.png',

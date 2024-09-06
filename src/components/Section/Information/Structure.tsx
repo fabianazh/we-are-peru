@@ -74,11 +74,11 @@ export default function Structure() {
                                     <span className="px-3 w-fit rounded-3xl bg-stone-300/70 block lg:inline-block text-xs mt-1 text-black font-semibold">
                                         {member.role}
                                     </span>
-                                    <div className="w-full flex flex-col">
+                                    <div className="w-full flex flex-col gap-1 lg:gap-0">
                                         <span className="text-sm lg:text-base font-semibold break-words">
                                             {member.name}
                                         </span>
-                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
+                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold lg:mb-0.5">
                                             {member.major}
                                         </span>
                                         <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-semibold">
@@ -98,6 +98,43 @@ export default function Structure() {
                     <motion.div className="w-screen h-screen fixed top-0 left-0 bg-transparent z-[60]">
                         {/* Modal Container */}
                         <div className="w-full h-full relative flex justify-center items-center z-0">
+                            {/* Close Button */}
+                            <motion.div
+                                onClick={() =>
+                                    setModal({
+                                        isOpen: false,
+                                        data: null,
+                                    })
+                                }
+                                variants={{
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0.95,
+                                    },
+                                    enter: {
+                                        opacity: 1,
+                                        scale: 1,
+                                        transition: {
+                                            delay: 0.3,
+                                            duration: 0.2,
+                                        },
+                                    },
+                                    exit: {
+                                        opacity: 0,
+                                        scale: 0.95,
+                                        transition: {
+                                            duration: 0.2,
+                                        },
+                                    },
+                                }}
+                                animate="enter"
+                                exit="exit"
+                                initial="initial"
+                                className="absolute hidden lg:flex top-8 right-8 w-fit h-fit z-0 cursor-pointer text-stone-600 z-10"
+                            >
+                                <FiX className="text-2xl lg:text-3xl" />
+                            </motion.div>
+                            {/* End Close Button */}
                             {/* Overlay */}
                             <motion.div
                                 onClick={() =>
@@ -149,7 +186,7 @@ export default function Structure() {
                                             data: null,
                                         })
                                     }
-                                    className="absolute -top-8 -right-8 lg:-top-10 lg:-right-10 w-fit h-fit z-0 cursor-pointer text-stone-600"
+                                    className="flex lg:hidden absolute -top-8 -right-8 lg:-top-10 lg:-right-10 w-fit h-fit z-0 cursor-pointer text-stone-600"
                                 >
                                     <FiX className="text-2xl lg:text-3xl" />
                                 </div>
@@ -170,7 +207,7 @@ export default function Structure() {
                                     <span
                                         className={`my-1 block text-2xl lg:text-3xl font-bold ${alexBrush.className}`}
                                     >
-                                        {modal?.data?.name}
+                                        {modal?.data?.nickname}
                                     </span>
                                 </div>
                                 {/* End Content */}
