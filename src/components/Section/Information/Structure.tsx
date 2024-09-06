@@ -71,14 +71,14 @@ export default function Structure() {
                                     ></Image>
                                 </div>
                                 <div className="flex flex-col gap-1.5">
-                                    <span className="px-3 w-fit rounded-3xl bg-stone-300/70 block lg:inline-block text-xs mt-1 text-black font-semibold">
+                                    <span className="px-2 lg:px-3 w-fit rounded-3xl bg-stone-300/70 block lg:inline-block text-[0.625rem] lg:text-xs mt-1 text-black font-semibold">
                                         {member.role}
                                     </span>
                                     <div className="w-full flex flex-col gap-1 lg:gap-0">
-                                        <span className="text-sm lg:text-base font-semibold break-words">
+                                        <span className="text-sm lg:text-base font-bold break-words">
                                             {member.name}
                                         </span>
-                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold lg:mb-0.5">
+                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 lg:text-stone-700 font-semibold lg:mb-0.5">
                                             {member.major}
                                         </span>
                                         <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-semibold">
@@ -130,7 +130,7 @@ export default function Structure() {
                                 animate="enter"
                                 exit="exit"
                                 initial="initial"
-                                className="absolute hidden lg:flex top-8 right-8 w-fit h-fit z-0 cursor-pointer text-stone-600 z-10"
+                                className="absolute hidden lg:flex top-8 right-8 w-fit h-fit cursor-pointer text-stone-600 z-10"
                             >
                                 <FiX className="text-2xl lg:text-3xl" />
                             </motion.div>
@@ -186,7 +186,7 @@ export default function Structure() {
                                             data: null,
                                         })
                                     }
-                                    className="flex lg:hidden absolute -top-8 -right-8 lg:-top-10 lg:-right-10 w-fit h-fit z-0 cursor-pointer text-stone-600"
+                                    className="flex lg:hidden absolute -top-6 -right-6 w-fit h-fit z-0 cursor-pointer text-stone-600"
                                 >
                                     <FiX className="text-2xl lg:text-3xl" />
                                 </div>

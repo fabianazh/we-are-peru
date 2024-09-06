@@ -172,7 +172,7 @@ export default function Hero() {
                                 >
                                     <GrInstagram className="text-xs" />
                                     <span className="font-semibold text-stone-600">
-                                        thisisperupride_
+                                        thisisperu_
                                     </span>
                                 </Link>
                                 <Link

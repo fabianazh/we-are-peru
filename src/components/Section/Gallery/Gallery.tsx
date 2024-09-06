@@ -53,14 +53,14 @@ export default function Announcement() {
                                 className="w-full h-auto flex-grow flex gap-8 justify-between border p-4 bg-white group hover:bg-stone-50 duration-all transition-colors shadow-sm rounded-xl"
                             >
                                 <div className="w-full flex flex-col gap-2 lg:gap-2">
-                                    <span className="text-base lg:text-lg font-bold">
+                                    <span className="text-sm lg:text-lg font-bold">
                                         {gallery.title}
                                     </span>
-                                    <div className="flex flex-col gap-1 lg:gap-1">
-                                        <span className="text-sm text-stone-600 font-medium">
+                                    <div className="flex flex-col gap-2">
+                                        <span className="text-xs lg:text-sm text-stone-600 font-medium">
                                             {gallery.date}
                                         </span>
-                                        <span className="text-sm text-black font-semibold">
+                                        <span className="text-xs lg:text-sm text-black font-semibold">
                                             {gallery.location.name}
                                         </span>
                                     </div>
