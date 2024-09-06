@@ -23,7 +23,7 @@ export default function GalleryDetail({ galleryId }: { galleryId: string }) {
             >
                 {/* Heading */}
                 <div className="w-full flex items-end justify-between gap-1">
-                    <div className="w-full flex flex-col gap-1.5">
+                    <div className="w-full flex flex-col gap-1">
                         <h2 className="text-xl lg:text-2xl font-semibold">
                             {gallery?.title}
                         </h2>
@@ -43,9 +43,9 @@ export default function GalleryDetail({ galleryId }: { galleryId: string }) {
                 {/* End Heading */}
 
                 {/* Content */}
-                <div className="w-full columns-2 md:columns-3 lg:columns-4 gap-6 font-medium text-stone-600">
+                <div className="w-full columns-2 md:columns-3 lg:columns-4 ap-4 lg:gap-6 font-medium text-stone-600">
                     {gallery?.medias.map((media: string, index: number) => (
-                        <div key={index} className="w-full mb-6">
+                        <div key={index} className="w-full mb-4 lg:mb-6">
                             <Image
                                 src={`${media}`}
                                 alt={media}
