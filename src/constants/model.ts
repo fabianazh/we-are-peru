@@ -1,9 +1,9 @@
 export const announcements = [
     {
         id: 'pengumuman-dan-rangkuman-pertemuan-perdana-kelompok-peru',
-        title: 'Pengumuman dan Rangkuman pertemuan perdana kelompok Peru',
-        desc: 'Pada hari Minggu tanggal 01 September 2024, kelompok Peru mengadakan pertemuan untuk membahas hal-hal yang berkaitan dengan tugas kelompok Mabim. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
-        date: 'Minggu, 1 September 2024',
+        title: 'Pengumuman dan Rangkuman Pertemuan Perdana Kelompok Peru',
+        desc: 'Pada hari Minggu tanggal 01 September 2024, Kelompok Peru mengadakan pertemuan untuk membahas hal-hal yang berkaitan dengan tugas kelompok Mabim. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
+        date: 'Minggu, 01 September 2024',
         time: '13.00 WIB',
         announcements: [
             'IG kelompok adalah @thisisperupride_',
@@ -22,9 +22,9 @@ export const announcements = [
     },
     {
         id: 'pengumuman-perubahan-rencana-take-video-tugas-kelompok',
-        title: 'Pengumuman perubahan rencana take video tugas kelompok',
+        title: 'Pengumuman Perubahan Rencana Take Video Tugas Kelompok',
         desc: 'Pada hari Senin tanggal 02 September 2024, beberapa pengurus inti kelompok Peru mengadakan pertemuan dan membahas hal-hal yang berkaitan dengan rencana take video kelompok. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
-        date: 'Senin, 2 September 2024',
+        date: 'Senin, 02 September 2024',
         time: '19.00 WIB',
         announcements: [
             'Dresscode take video adalah atasan hitam dan bawahan hitam untuk laki-laki maupun perempuan',
@@ -35,6 +35,49 @@ export const announcements = [
         ],
         summaries: [],
     },
+    {
+        id: 'pengumuman-mengenai-take-video-tugad-kelompok',
+        title: 'Pengumuman Mengenai Take Video Tugas Kelompok',
+        desc: 'Pada hari Selasa tanggal 03 September 2024, Ketua Kelompok Peru mengumumkan beberapa hal yang perlu diketahui oleh anggota kelompok. Untuk detail pengumumannya silahkan dicek ya!!',
+        date: 'Selasa, 03 September 2024',
+        time: '19.00 WIB',
+        announcements: [
+            'Hari Rabu tanggal 04 September 2024 pukul 10.00 WIB akan diadakan pertemuan kembali',
+            'Agenda pertemuan hari Rabu tanggal 04 September 2024 pukul 10.00 WIB adalah take video pentas seni dan yel-yel kelompok',
+            'Take video akan dilakukan di Situ Gunung',
+            'Titik kumpul sebelum ke Situ Gunung adalah di Alun Alun Cisaat pukul 09.30 WIB',
+            'Semua anggota kelompok yang tidak berhalangan diharapkan bisa hadir',
+        ],
+        summaries: [],
+    },
+    {
+        id: 'pengumuman-dan-rangkuman-progress-video-tugas-kelompok-1',
+        title: 'Pengumuman dan Rangkuman Progress Video Tugas Kelompok 1',
+        desc: 'Pada hari Rabu tanggal 04 September 2024, Kelompok Peru mengadakan pertemuan yang bertujuan untuk take video tugas kelompok. Untuk detail dari progress video tugas kelompok silahakan dicek ya!!',
+        date: 'Rabu, 04 September 2024',
+        time: '19.00 WIB',
+        announcements: [
+            'Editing video tugas kelompok akan dilaksanakan hari Kamis tanggal 05 September di rumah Zalfan',
+        ],
+        summaries: [
+            'Take video pentas seni sudah selesai',
+            'Take video yel-yel sudah selesai',
+        ],
+    },
+    {
+        id: 'pengumuman-dan-rangkuman-progress-video-tugas-kelompok-2',
+        title: 'Pengumuman dan Rangkuman Progress Video Tugas Kelompok 2',
+        desc: 'Pada hari Kamis tanggal 05 September 2024, Pubdekdok Kelompok Peru melakukan pertemuan untuk editing video tugas kelompok. Untuk detail progressnya silahkan dicek ya!!',
+        date: 'Kamis, 05 September 2024',
+        time: '21.00 WIB',
+        announcements: [
+            `Editing video akan dilanjut hari Jum'at tanggal 06 September 2024 di rumah Zalfan`,
+        ],
+        summaries: [
+            `Progress editing video pentas seni 80%`,
+            'Progress editing video yel-yel 40%',
+        ],
+    },
 ]
 
 export const members = [
@@ -43,7 +86,7 @@ export const members = [
         name: 'Ridzky Muhammad Anwar',
         role: 'Mentor',
         major: 'Manajemen',
-        src: '/img/member/ridzky.jpg',
+        src: '/img/member/ridzky.png',
         instagram: 'mrdzkynwr_',
     },
     {
@@ -59,7 +102,7 @@ export const members = [
         name: 'Nur Aulia Sholihah Hasyi',
         role: 'Wakil Ketua',
         major: 'Hukum',
-        src: '/img/member/aulia.jpg',
+        src: '/img/member/aulia.png',
         instagram: 'nuraauliaash_',
     },
     {
@@ -75,7 +118,7 @@ export const members = [
         name: 'Rista Julia Moniq Pratama',
         role: 'Bendahara',
         major: 'PGSD',
-        src: '/img/member/rista.jpg',
+        src: '/img/member/rista.png',
         instagram: 'ristaajp',
     },
     {
@@ -91,7 +134,7 @@ export const members = [
         name: 'Dahlia Nurohmawati Putri',
         role: 'Publish',
         major: 'Manajemen',
-        src: '/img/member/dahlia.jpg',
+        src: '/img/member/dahlia.png',
         instagram: 'dahliaaputrii_',
     },
     {
@@ -99,7 +142,7 @@ export const members = [
         name: 'Muhammad Alfarizzi Sutisna',
         role: 'Dokumentasi',
         major: 'Teknik Informatika',
-        src: '/img/member/alfarizzi.jpg',
+        src: '/img/member/alfarizzi.png',
         instagram: 'pixx.ellx',
     },
     {
@@ -107,7 +150,7 @@ export const members = [
         name: 'Arizal Afsal',
         role: 'Desain',
         major: 'Sistem Informasi',
-        src: '/img/member/arizal.jpg',
+        src: '/img/member/arizal.png',
         instagram: 'arizalafsl',
     },
     {
@@ -131,7 +174,7 @@ export const members = [
         name: 'Ibrahimovic Nur Chandra',
         role: 'Keamanan',
         major: 'Hukum',
-        src: '/img/member/ibrahimovic.jpg',
+        src: '/img/member/ibrahimovic.png',
         instagram: 'movicnurchandra',
     },
     {
@@ -147,7 +190,7 @@ export const members = [
         name: 'Muhamad Yusup',
         role: 'Keamanan',
         major: 'Manajemen',
-        src: '/img/member/yusup.jpg',
+        src: '/img/member/yusup.png',
         instagram: 'ysfalfrzz',
     },
     {
@@ -155,7 +198,7 @@ export const members = [
         name: 'Zahra Nur Fatimah',
         role: 'Keamanan',
         major: 'Akutansi',
-        src: '/img/member/zahra.jpg',
+        src: '/img/member/zahra.png',
         instagram: 'zahraanff_',
     },
     {
@@ -163,7 +206,7 @@ export const members = [
         name: 'Audy Auliany',
         role: 'Anggota',
         major: 'Manajemen',
-        src: '/img/member/audy.jpg',
+        src: '/img/member/audy.png',
         instagram: 'audiaayn_',
     },
     {
@@ -171,7 +214,7 @@ export const members = [
         name: 'Bunga',
         role: 'Anggota',
         major: 'Manajemen',
-        src: '/img/member/bunga.jpg',
+        src: '/img/member/bunga.png',
         instagram: 'bungafflr_',
     },
     {
@@ -187,7 +230,7 @@ export const members = [
         name: 'Fauzan Ferdiansyah',
         role: 'Anggota',
         major: 'Hukum',
-        src: '/img/member/fauzan.jpg',
+        src: '/img/member/fauzan.png',
         instagram: 'fauzanferdiansyah_',
     },
     {
@@ -195,12 +238,12 @@ export const members = [
         name: 'Intan Apriliani',
         role: 'Anggota',
         major: 'Manajemen',
-        src: '/img/member/intan.jpg',
+        src: '/img/member/intan.png',
         instagram: 'prilldeee',
     },
     {
         id: 20,
-        name: 'Mella',
+        name: 'Mella Maulia Nursaputri',
         role: 'Anggota',
         major: 'Manajemen',
         src: '/img/member/mella.png',
@@ -211,7 +254,7 @@ export const members = [
         name: 'Muhammad Affryansa',
         role: 'Anggota',
         major: 'Manajemen',
-        src: '/img/member/affryansa.jpg',
+        src: '/img/member/affryansa.png',
         instagram: 'Mhaffryansah7',
     },
     {
@@ -219,7 +262,7 @@ export const members = [
         name: 'Muhammad Gilang Al-Bawafi',
         role: 'Anggota',
         major: 'Teknik Sipil',
-        src: '/img/member/gilang.jpg',
+        src: '/img/member/gilang.png',
         instagram: 'gilang93941',
     },
     {
@@ -235,7 +278,7 @@ export const members = [
         name: 'Muhammad Zahran Ramdhani Nurmansyah',
         role: 'Anggota',
         major: 'Teknik Sipil',
-        src: '/img/member/zahran.jpg',
+        src: '/img/member/zahran.png',
         instagram: 'zahran.rn',
     },
     {
@@ -251,7 +294,7 @@ export const members = [
         name: 'Nur Azhmi Octavia',
         role: 'Anggota',
         major: 'Hukum',
-        src: '/img/member/nur.jpg',
+        src: '/img/member/azmi.png',
         instagram: 'cheoctavi',
     },
     {
@@ -259,7 +302,7 @@ export const members = [
         name: 'Nurani',
         role: 'Anggota',
         major: 'PGSD',
-        src: '/img/member/nurani.jpg',
+        src: '/img/member/nurani.png',
         instagram: 'raninr_',
     },
     {
@@ -267,7 +310,7 @@ export const members = [
         name: 'Rusdianto Nugraha',
         role: 'Anggota',
         major: 'Akutansi',
-        src: '/img/member/rusdianto.jpg',
+        src: '/img/member/rusdianto.png',
         instagram: 'rusdii_18',
     },
     {
@@ -275,7 +318,7 @@ export const members = [
         name: 'Sabrina Nauran Haq',
         role: 'Anggota',
         major: 'Hukum',
-        src: '/img/member/sabrina.jpg',
+        src: '/img/member/sabrina.png',
         instagram: 'sbinabeen',
     },
     {
@@ -283,7 +326,7 @@ export const members = [
         name: 'Salsabila Devina Salma',
         role: 'Anggota',
         major: 'Teknik Informatika',
-        src: '/img/member/salsabila.jpg',
+        src: '/img/member/salsabila.png',
         instagram: 'salsaabila0',
     },
     {
@@ -291,7 +334,7 @@ export const members = [
         name: 'Siti Liani',
         role: 'Anggota',
         major: 'PGSD',
-        src: '/img/member/siti.jpg',
+        src: '/img/member/siti.png',
         instagram: 'sitiliani1',
     },
     {
@@ -299,7 +342,7 @@ export const members = [
         name: 'Diefa Jati Kusumua',
         role: 'Anggota',
         major: 'Teknik Elektro',
-        src: '/img/member/diefa.jpg',
+        src: '/img/member/diefa.png',
         instagram: 'diefazze',
     },
     {
@@ -307,7 +350,7 @@ export const members = [
         name: 'Iva Nuraeni',
         role: 'Anggota',
         major: 'Teknik Sipil',
-        src: '/img/member/iva.jpg',
+        src: '/img/member/iva.png',
         instagram: 'ivnrraa_',
     },
     {
@@ -315,7 +358,17 @@ export const members = [
         name: 'Riswan Maulana',
         role: 'Anggota',
         major: 'Teknik Sipil',
-        src: '/img/member/riswan.jpg',
+        src: '/img/member/riswan.png',
         instagram: 'riswan4415',
+    },
+]
+
+export const galleries = [
+    {
+        id: 'pertemuan-perdana-kelompok-peru',
+        title: 'Pertemuan Perdana Kelompok Peru',
+        date: '1 September 2024',
+        thumbnail: '/img/gallery/1-sep/',
+        gdrive: '-',
     },
 ]

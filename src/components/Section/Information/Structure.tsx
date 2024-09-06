@@ -37,7 +37,7 @@ export default function Structure() {
                         />
                     </div>
                 </div>
-                <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 lg:gap-6">
+                <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3 lg:gap-6">
                     {members.map((member: Member, index: number) => (
                         <div
                             key={index}

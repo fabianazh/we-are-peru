@@ -16,3 +16,11 @@ interface Member {
     src: string
     instagram: string
 }
+
+interface Gallery {
+    id: string
+    title: string
+    date: string
+    thumbnail: string
+    gdrive: string
+}

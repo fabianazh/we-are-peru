@@ -15,8 +15,11 @@ export default function Chant() {
                             Yel-Yel
                         </h2>
                         <div className="w-full flex flex-col text-sm font-medium mb-3 lg:mb-4">
-                            <span>Pencipta : Irman & Aulia</span>
-                            <span>Pemandu : Irman</span>
+                            <span>
+                                Pencipta : Muhammad Irman & Nur Aulia Sholihah
+                                Hasyi
+                            </span>
+                            <span>Pemandu : Muhammad Irman</span>
                         </div>
                         <div className="w-full h-auto rounded-xl overflow-hidden">
                             <iframe
