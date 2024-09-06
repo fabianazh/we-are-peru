@@ -4,6 +4,8 @@ import Footer from '@/components/Partials/Footer'
 import { dmSans } from './fonts'
 import Header from '@/components/Partials/Header'
 import SmoothScroll from '@/components/Other/SmoothScroll'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata: Metadata = {
     title: 'We Are Peru!',
@@ -18,6 +20,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={dmSans.className}>
+                <Analytics />
+                <SpeedInsights />
+                <Analytics />
                 <SmoothScroll />
                 <Header />
                 <main>{children}</main>
