@@ -1,4 +1,5 @@
 interface Announcement {
+    index: number
     id: string
     title: string
     desc: string
@@ -22,5 +23,9 @@ interface Gallery {
     title: string
     date: string
     thumbnail: string
-    gdrive: string
+    medias: string[]
+    location: {
+        name: string
+        url: string
+    }
 }

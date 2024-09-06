@@ -1,5 +1,6 @@
 export const announcements = [
     {
+        index: 0,
         id: 'pengumuman-dan-rangkuman-pertemuan-perdana-kelompok-peru',
         title: 'Pengumuman dan Rangkuman Pertemuan Perdana Kelompok Peru',
         desc: 'Pada hari Minggu tanggal 01 September 2024, Kelompok Peru mengadakan pertemuan untuk membahas hal-hal yang berkaitan dengan tugas kelompok Mabim. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
@@ -21,6 +22,7 @@ export const announcements = [
         ],
     },
     {
+        index: 1,
         id: 'pengumuman-perubahan-rencana-take-video-tugas-kelompok',
         title: 'Pengumuman Perubahan Rencana Take Video Tugas Kelompok',
         desc: 'Pada hari Senin tanggal 02 September 2024, beberapa pengurus inti kelompok Peru mengadakan pertemuan dan membahas hal-hal yang berkaitan dengan rencana take video kelompok. Untuk detail dari hasil pertemuan silahkan dicek ya!!',
@@ -36,6 +38,7 @@ export const announcements = [
         summaries: [],
     },
     {
+        index: 2,
         id: 'pengumuman-mengenai-take-video-tugad-kelompok',
         title: 'Pengumuman Mengenai Take Video Tugas Kelompok',
         desc: 'Pada hari Selasa tanggal 03 September 2024, Ketua Kelompok Peru mengumumkan beberapa hal yang perlu diketahui oleh anggota kelompok. Untuk detail pengumumannya silahkan dicek ya!!',
@@ -51,6 +54,7 @@ export const announcements = [
         summaries: [],
     },
     {
+        index: 3,
         id: 'pengumuman-dan-rangkuman-progress-video-tugas-kelompok-1',
         title: 'Pengumuman dan Rangkuman Progress Video Tugas Kelompok 1',
         desc: 'Pada hari Rabu tanggal 04 September 2024, Kelompok Peru mengadakan pertemuan yang bertujuan untuk take video tugas kelompok. Untuk detail dari progress video tugas kelompok silahakan dicek ya!!',
@@ -65,6 +69,7 @@ export const announcements = [
         ],
     },
     {
+        index: 4,
         id: 'pengumuman-dan-rangkuman-progress-video-tugas-kelompok-2',
         title: 'Pengumuman dan Rangkuman Progress Video Tugas Kelompok 2',
         desc: 'Pada hari Kamis tanggal 05 September 2024, Pubdekdok Kelompok Peru melakukan pertemuan untuk editing video tugas kelompok. Untuk detail progressnya silahkan dicek ya!!',
@@ -368,7 +373,14 @@ export const galleries = [
         id: 'pertemuan-perdana-kelompok-peru',
         title: 'Pertemuan Perdana Kelompok Peru',
         date: '1 September 2024',
-        thumbnail: '/img/gallery/1-sep/',
-        gdrive: '-',
+        thumbnail: '/img/gallery/1-sep/thumbnail.jpg',
+        medias: Array.from(
+            { length: 27 },
+            (_, i) => `/img/gallery/1-sep/19${i + 1}.jpg`
+        ),
+        location: {
+            name: 'Mokopi Lingkar Selatan',
+            url: '',
+        },
     },
 ]

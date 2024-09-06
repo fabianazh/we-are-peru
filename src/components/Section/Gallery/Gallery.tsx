@@ -5,7 +5,7 @@ import TextReveal from '@/components/Other/TextReveal'
 import { motion } from 'framer-motion'
 import { announcementService } from '@/services/announcementService'
 import Image from 'next/image'
-import { members } from '@/constants/model'
+import { galleries, members } from '@/constants/model'
 
 export default function Announcement() {
     const announcements = announcementService.getAllAnnouncements()
@@ -29,33 +29,53 @@ export default function Announcement() {
                 {/* End Heading */}
 
                 {/* Content */}
-                <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3 lg:gap-6">
-                    {members.map((member: Member, index: number) => (
-                        <div
-                            key={index} 
-                            className="w-full h-auto shadow-sm border rounded-xl flex flex-grow flex-col gap-2.5 p-4 bg-white"
+
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-2 lg:gap-4">
+                    {galleries.map((gallery: Gallery, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0 }}
+                            whileInView={{
+                                opacity: 1,
+                                transition: {
+                                    duration: 0.5,
+                                    ease: 'easeOut',
+                                    delay: 0.2 + index * 0.4,
+                                },
+                            }}
+                            viewport={{
+                                amount: 'some',
+                                once: true,
+                            }}
                         >
-                            <div className="w-full aspect-square rounded-xl overflow-hidden relative">
-                                <Image
-                                    src={`${member.src}`}
-                                    alt={`${member.name}`}
-                                    width={200}
-                                    height={200}
-                                    className="h-fit w-full absolute"
-                                ></Image>
-                            </div>
-                            <div className="flex flex-col gap-0.5 hyphens-auto2xvc n cfv fcrrdcfredcedcedcedcedcrfcfrvfvrrfvfrv">
-                                <span className="text-sm lg:text-base font-semibold">
-                                    {member.name}
-                                </span>
-                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-medium">
-                                    {member.role}
-                                </span>
-                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
-                                    {member.major}
-                                </span>
-                            </div>
-                        </div>
+                            <Link
+                                href={`/gallery/${gallery.id}`}
+                                className="w-full h-auto flex-grow flex gap-8 justify-between border p-4 bg-white group hover:bg-stone-50 duration-all transition-colors shadow-sm rounded-xl"
+                            >
+                                <div className="w-full flex flex-col gap-2 lg:gap-2">
+                                    <span className="text-base lg:text-lg font-bold">
+                                        {gallery.title}
+                                    </span>
+                                    <div className="flex flex-col gap-1 lg:gap-1">
+                                        <span className="text-sm text-stone-600 font-medium">
+                                            {gallery.date}
+                                        </span>
+                                        <span className="text-sm text-black font-semibold">
+                                            {gallery.location.name}
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="w-4/12 relative rounded-xl aspect-square shrink-0 overflow-hidden">
+                                    <Image
+                                        src={`${gallery.thumbnail}`}
+                                        alt={`${gallery.title}`}
+                                        width={800}
+                                        height={800}
+                                        className="w-full h-full absolute"
+                                    />
+                                </div>
+                            </Link>
+                        </motion.div>
                     ))}
                 </div>
                 {/* End Content */}

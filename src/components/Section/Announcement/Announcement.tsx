@@ -30,8 +30,12 @@ export default function Announcement() {
 
                 {/* Content */}
                 <div className="w-full flex flex-col">
-                    {announcements.map(
-                        (announcement: Announcement, index: number) => (
+                    {announcements
+                        .sort(
+                            (a: Announcement, b: Announcement) =>
+                                b.index - a.index
+                        )
+                        .map((announcement: Announcement, index: number) => (
                             <motion.div
                                 key={index}
                                 initial={{ opacity: 0 }}
@@ -73,8 +77,7 @@ export default function Announcement() {
                                     Baca selengkapnya
                                 </Link>
                             </motion.div>
-                        )
-                    )}
+                        ))}
                 </div>
                 {/* End Content */}
             </section>

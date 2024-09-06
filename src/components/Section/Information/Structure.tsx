@@ -37,10 +37,23 @@ export default function Structure() {
                         />
                     </div>
                 </div>
-                <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3 lg:gap-6">
+                <div className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-3 lg:gap-4">
                     {members.map((member: Member, index: number) => (
-                        <div
+                        <motion.div
                             key={index}
+                            initial={{ opacity: 0 }}
+                            whileInView={{
+                                opacity: 1,
+                                transition: {
+                                    duration: 0.5,
+                                    ease: 'easeOut',
+                                    delay: index * 0.09,
+                                },
+                            }}
+                            viewport={{
+                                amount: 'some',
+                                once: true,
+                            }}
                             onClick={() =>
                                 setModal({ isOpen: true, data: member })
                             }
@@ -55,8 +68,8 @@ export default function Structure() {
                                     className="h-fit w-full absolute"
                                 ></Image>
                             </div>
-                            <div className="flex flex-col gap-0.5 hyphens-auto2xvc n cfv fcrrdcfredcedcedcedcedcrfcfrvfvrrfvfrv">
-                                <span className="text-sm lg:text-base font-semibold">
+                            <div className="flex flex-col gap-0.5">
+                                <span className="text-sm lg:text-base font-semibold break-words">
                                     {member.name}
                                 </span>
                                 <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-medium">
@@ -66,7 +79,7 @@ export default function Structure() {
                                     {member.major}
                                 </span>
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </section>
