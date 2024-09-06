@@ -9,6 +9,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { perspectiveItemVariant, overlayVariant } from '@/constants/variant'
 import PrimaryButton from '@/components/Button/PrimaryButton'
 import { FiX } from 'react-icons/fi'
+import { alexBrush } from '@/app/fonts'
 
 export default function Structure() {
     const [modal, setModal] = useState<{
@@ -33,7 +34,7 @@ export default function Structure() {
                         </h2>
                         <TextReveal
                             className="text-sm lg:text-base font-medium"
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit "
+                            text="Susunan peran yang membentuk kekuatan kami."
                         />
                     </div>
                 </div>
@@ -57,27 +58,34 @@ export default function Structure() {
                             onClick={() =>
                                 setModal({ isOpen: true, data: member })
                             }
-                            className="w-full h-auto shadow-sm border rounded-xl flex flex-grow flex-col gap-2.5 p-4 bg-white"
+                            className="w-full h-auto flex flex-grow"
                         >
-                            <div className="w-full aspect-square rounded-xl overflow-hidden relative">
-                                <Image
-                                    src={`${member.src}`}
-                                    alt={`${member.name}`}
-                                    width={200}
-                                    height={200}
-                                    className="h-fit w-full absolute"
-                                ></Image>
-                            </div>
-                            <div className="flex flex-col gap-0.5">
-                                <span className="text-sm lg:text-base font-semibold break-words">
-                                    {member.name}
-                                </span>
-                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-medium">
-                                    {member.role}
-                                </span>
-                                <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
-                                    {member.major}
-                                </span>
+                            <div className="w-full h-auto shadow-sm border rounded-xl flex flex-grow flex-col gap-2.5 p-4 bg-white cursor-pointer hover:bg-stone-100 transition-all duration-[400ms] hover:shadow">
+                                <div className="w-full aspect-square rounded-xl overflow-hidden relative">
+                                    <Image
+                                        src={`${member.src}`}
+                                        alt={`${member.name}`}
+                                        width={200}
+                                        height={200}
+                                        className="h-fit w-full absolute"
+                                    ></Image>
+                                </div>
+                                <div className="flex flex-col gap-1.5">
+                                    <span className="px-3 w-fit rounded-3xl bg-stone-300/70 block lg:inline-block text-xs mt-1 text-black font-semibold">
+                                        {member.role}
+                                    </span>
+                                    <div className="w-full flex flex-col">
+                                        <span className="text-sm lg:text-base font-semibold break-words">
+                                            {member.name}
+                                        </span>
+                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
+                                            {member.major}
+                                        </span>
+                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-semibold">
+                                            @{member.instagram}
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </motion.div>
                     ))}
@@ -131,7 +139,7 @@ export default function Structure() {
                                 animate="enter"
                                 exit="exit"
                                 initial="initial"
-                                className="relative w-auto max-w-[90vw] lg:min-w-72 min-h-40 lg:min-h-56 bg-white z-10 shadow-sm rounded-2xl h-auto p-6 pr-14 lg:pr-16 lg:p-8 pt-5 lg:pt-7 flex flex-row-reverse gap-6"
+                                className="relative w-96 max-w-[85vw] border min-h-40 lg:min-h-56 bg-white z-10 shadow-sm h-auto p-4 lg:p-5 flex"
                             >
                                 {/* Close Button */}
                                 <div
@@ -141,20 +149,29 @@ export default function Structure() {
                                             data: null,
                                         })
                                     }
-                                    className="absolute top-5 right-6 w-fit h-fit z-0 cursor-pointer translate-y-1 translate-x-1 text-stone-500"
+                                    className="absolute -top-8 -right-8 lg:-top-10 lg:-right-10 w-fit h-fit z-0 cursor-pointer text-stone-600"
                                 >
-                                    <FiX className="text-xl lg:text-xl" />
+                                    <FiX className="text-2xl lg:text-3xl" />
                                 </div>
                                 {/* End Close Button */}
                                 {/* Content */}
-                                <div className="w-fit flex flex-col shrink-0 gap-3 py-2 shrink-0">
-                                    {/* Title */}
-                                    <h4
-                                        className={`text-xl lg:text-2xl font-semibold break-words`}
+                                <div className="w-full flex flex-col items-center shrink-0 gap-3 py-2">
+                                    {/* Image */}
+                                    <div className="w-full aspect-square overflow-hidden relative">
+                                        <Image
+                                            src={`${modal?.data?.src}`}
+                                            alt={`${modal?.data?.name}`}
+                                            width={200}
+                                            height={200}
+                                            className="h-fit w-full absolute"
+                                        ></Image>
+                                    </div>
+                                    {/* End Image */}
+                                    <span
+                                        className={`my-1 block text-2xl lg:text-3xl font-bold ${alexBrush.className}`}
                                     >
                                         {modal?.data?.name}
-                                    </h4>
-                                    {/* End Title */}
+                                    </span>
                                 </div>
                                 {/* End Content */}
                             </motion.div>
