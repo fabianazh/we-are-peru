@@ -24,7 +24,7 @@ export default function Structure() {
         <>
             <section
                 id="structure"
-                className="w-full flex flex-col gap-4 lg:gap-6"
+                className="w-full flex flex-col gap-3 lg:gap-6"
             >
                 <div className="w-full flex items-end justify-between gap-1">
                     <div className="w-full flex flex-col gap-1">
