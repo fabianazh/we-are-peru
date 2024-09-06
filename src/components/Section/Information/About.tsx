@@ -16,7 +16,7 @@ export default function About() {
                             Tentang Kami
                         </h2>
                         <div className="w-full flex flex-col gap-1">
-                            <span className="indent-4 lg:indent-t text-sm lg:text-base text-stone-800 font-medium text-justify">
+                            <span className="text-sm lg:text-base text-stone-800 font-medium text-justify">
                                 Kelompok Peru adalah kelompok mahasiswa yang
                                 penuh semangat dan tekad untuk meraih kesuksesan
                                 bersama. Sebagai bagian dari MABIM (Masa
@@ -35,7 +35,7 @@ export default function About() {
                             Apa itu Peru?
                         </h2>
                         <div className="w-full flex flex-col gap-1">
-                            <span className="indent-4 lg:indent-t text-sm lg:text-base text-stone-800 font-medium text-justify">
+                            <span className="text-sm lg:text-base text-stone-800 font-medium text-justify">
                                 Peru sendiri adalah negara di Amerika Selatan
                                 yang terkenal dengan sejarah peradaban suku
                                 Inca, Machu Picchu, dan keindahan alamnya

@@ -97,7 +97,7 @@ export const members = [
     {
         id: 7,
         name: 'Muhammad Alfarizzi Sutisna',
-        role: 'Dokumentasi/Editor',
+        role: 'Dokumentasi',
         major: 'Teknik Informatika',
         src: '/img/member/alfarizzi.jpg',
         instagram: 'pixx.ellx',
@@ -105,7 +105,7 @@ export const members = [
     {
         id: 8,
         name: 'Arizal Afsal',
-        role: 'Design',
+        role: 'Desain',
         major: 'Sistem Informasi',
         src: '/img/member/arizal.jpg',
         instagram: 'arizalafsl',
@@ -113,7 +113,7 @@ export const members = [
     {
         id: 9,
         name: 'Gina Salma',
-        role: 'Design',
+        role: 'Desain',
         major: 'DKV',
         src: '/img/member/gina.jpg',
         instagram: 'gisa_art736',
