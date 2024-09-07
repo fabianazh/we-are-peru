@@ -21,7 +21,7 @@ export default function Hero() {
                 <div className="flex flex-col lg:flex-row gap-4 w-full h-full">
                     <div className="h-auto flex flex-col gap-4 w-full lg:w-9/12 flex-auto">
                         <div className="flex flex-col lg:flex-row gap-4 w-full h-fit shrink-0">
-                            <div className="p-4 lg:p-6 lg:pb-8 flex flex-col gap-1 bg-white border shadow-sm overflow-hidden rounded-xl w-full lg:w-7/12">
+                            <div className="p-4 lg:p-6 lg:pb-8 flex flex-col gap-1 bg-white shadow-sm overflow-hidden rounded-xl w-full lg:w-7/12">
                                 <h1
                                     className={`font-medium lg:font-semibold text-2xl ${poppins.className}`}
                                 >
@@ -34,7 +34,7 @@ export default function Hero() {
                                     kegiatan kami di sini!
                                 </span>
                             </div>
-                            <div className="bg-transparent group border shadow-sm relative flex flex-col lg:flex-row overflow-hidden rounded-xl w-full lg:w-5/12 z-0">
+                            <div className="bg-transparent group shadow-sm relative flex flex-col lg:flex-row overflow-hidden rounded-xl w-full lg:w-5/12 z-0">
                                 <div
                                     className={`w-full justify-center lg:w-11/12 flex flex-col p-4 lg:p-6 bg-gradient-to-r from-white via-white to-transparent h-full z-10 ${poppins.className}`}
                                 >
@@ -69,13 +69,13 @@ export default function Hero() {
                             </div>
                         </div>
                         <div className="w-full h-full flex flex-col lg:flex-row gap-4">
-                            <div className="group relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 pb-6 lg:pb-0 w-full lg:w-3/12 border shadow-sm gap-4 bg-white">
+                            <div className="group relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 pb-6 lg:pb-0 w-full lg:w-3/12 shadow-sm gap-4 bg-white">
                                 <span className="font-semibold text-xl text-stone-800">
                                     Peta Negara Peru
                                 </span>
                                 <div className="w-6/12 lg:w-full mx-auto h-fit px-8">
                                     <Image
-                                        src={'/img/peru/map.png'}
+                                        src={'/img/peru/map2.png'}
                                         alt="Peru"
                                         width={500}
                                         height={500}
@@ -83,7 +83,7 @@ export default function Hero() {
                                     />
                                 </div>
                             </div>
-                            <div className="relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 w-full lg:w-9/12 border shadow-sm gap-6 h-auto bg-white">
+                            <div className="relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 w-full lg:w-9/12 shadow-sm gap-6 h-auto bg-white">
                                 <div className="w-full h-fit flex flex-col lg:flex-row items-start lg:items-end justify-between gap-3 lg:gap-1">
                                     <div className="w-full flex flex-col">
                                         <h2 className="text-lg font-semibold">
@@ -152,7 +152,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="w-full lg:w-[20%] h-auto flex flex-row lg:flex-col shrink-0 gap-4">
-                        <div className="w-6/12 lg:w-full group border shaodw-sm relative flex items-end overflow-hidden rounded-xl lg:flex-grow h-auto lg:h-60 shrink-0">
+                        <div className="w-6/12 lg:w-full group shaodw-sm relative flex items-end overflow-hidden rounded-xl lg:flex-grow h-auto lg:h-60 shrink-0">
                             <Image
                                 src={'/img/background/bg-1.jpeg'}
                                 alt="Peru"
@@ -161,7 +161,7 @@ export default function Hero() {
                                 className="h-fit w-full"
                             />
                         </div>
-                        <div className="w-6/12 lg:w-full border shadow-sm relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 flex-grow lg:h-40 lg:shrink-0 gap-2 bg-white">
+                        <div className="w-6/12 lg:w-full shadow-sm relative flex flex-col overflow-hidden rounded-xl p-4 lg:p-6 flex-grow lg:h-40 lg:shrink-0 gap-2 bg-white">
                             <span className="font-semibold text-lg">
                                 Kontak Kami
                             </span>
@@ -176,7 +176,7 @@ export default function Hero() {
                                     </span>
                                 </Link>
                                 <Link
-                                    href="/"
+                                    href="https://www.tiktok.com/@thisisperu_45?_t=8pWOw1qPJKM&_r=1"
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <FaTiktok />
@@ -185,12 +185,12 @@ export default function Hero() {
                                     </span>
                                 </Link>
                                 <Link
-                                    href="/"
+                                    href="https://youtube.com/@thisisperu?si=_BcbFiYKcLEYReZZ"
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <FaYoutube />
                                     <span className="font-semibold text-stone-600">
-                                        peru.
+                                        This Is Peru
                                     </span>
                                 </Link>
                             </div>

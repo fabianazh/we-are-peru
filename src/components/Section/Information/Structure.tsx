@@ -60,7 +60,7 @@ export default function Structure() {
                             }
                             className="w-full h-auto flex flex-grow"
                         >
-                            <div className="w-full h-auto shadow-sm border rounded-xl flex flex-grow flex-col gap-2.5 p-4 bg-white cursor-pointer hover:bg-stone-100 transition-all duration-[400ms] hover:shadow">
+                            <div className="w-full h-auto shadow-sm rounded-xl flex flex-grow flex-col gap-2.5 p-4 bg-white cursor-pointer hover:bg-stone-100 transition-all duration-[400ms] hover:shadow">
                                 <div className="w-full aspect-square rounded-xl overflow-hidden relative">
                                     <Image
                                         src={`${member.src}`}
@@ -147,7 +147,7 @@ export default function Structure() {
                                 animate="enter"
                                 exit="exit"
                                 initial="initial"
-                                className="absolute w-full h-full bg-transparent backdrop-blur z-0"
+                                className="absolute w-full h-full bg-black/80 backdrop-blur z-0"
                             ></motion.div>
                             {/* End Overlay */}
                             {/* Modal */}
@@ -176,7 +176,7 @@ export default function Structure() {
                                 animate="enter"
                                 exit="exit"
                                 initial="initial"
-                                className="relative w-96 max-w-[85vw] border min-h-40 lg:min-h-56 bg-white z-10 shadow-sm h-auto p-4 lg:p-5 flex"
+                                className="relative w-96 max-w-[85vw] min-h-40 lg:min-h-56 bg-white z-10 shadow-sm h-auto p-4 lg:p-5 flex"
                             >
                                 {/* Close Button */}
                                 <div

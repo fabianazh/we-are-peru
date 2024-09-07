@@ -7,7 +7,7 @@ export default function Chant() {
         <>
             <section
                 id="chant"
-                className="w-full lg:5/12 h-fit lg:flex-grow lg:h-auto flex flex-col p-4 lg:p-6 rounded-xl border bg-white shadow-sm gap-4"
+                className="w-full lg:5/12 h-fit lg:flex-grow lg:h-auto flex flex-col p-4 lg:p-6 rounded-xl bg-white shadow-sm gap-4"
             >
                 <div className="w-full flex items-end justify-between gap-1">
                     <div className="w-full flex flex-col gap-1 lg:gap-2">

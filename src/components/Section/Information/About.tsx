@@ -1,6 +1,5 @@
 'use client'
 
-import { montserrat } from '@/app/fonts'
 import TextReveal from '@/components/Other/TextReveal'
 
 export default function About() {
@@ -10,7 +9,7 @@ export default function About() {
                 id="about"
                 className="w-full lg:w-7/12 h-fit lg:h-auto lg:flex-grow shrink-0 flex flex-col gap-4"
             >
-                <div className="w-full h-full flex gap-2 p-4 lg:p-6 rounded-xl border shadow-sm bg-white">
+                <div className="w-full h-full flex gap-2 p-4 lg:p-6 rounded-xl shadow-sm bg-white">
                     <div className="w-full flex flex-col gap-1">
                         <h2 className="text-xl lg:text-2xl font-semibold">
                             Tentang Kami
@@ -29,7 +28,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex items-end justify-between gap-2 p-4 lg:p-6 rounded-xl border shadow-sm bg-white">
+                <div className="w-full flex items-end justify-between gap-2 p-4 lg:p-6 rounded-xl shadow-sm bg-white">
                     <div className="w-full flex flex-col gap-1">
                         <h2 className="text-xl lg:text-2xl font-semibold">
                             Apa itu Peru?
