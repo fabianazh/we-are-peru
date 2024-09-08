@@ -39,58 +39,23 @@ export default function AnnouncementDetail({
 
                 {/* Content */}
                 <div className="w-full flex flex-col gap-2 font-medium text-stone-600">
-                    <TextReveal
-                        className="font-medium"
-                        text={`${announcement?.desc}`}
-                    />
+                    <span className="font-medium">{announcement?.desc}</span>
                     {/* Announcements */}
                     {(announcement?.announcements.length ?? 0) > 0 && (
                         <div className="w-fit flex flex-col py-1">
-                            <motion.span
-                                initial={{
-                                    opacity: 0,
-                                }}
-                                whileInView={{
-                                    opacity: 1,
-                                    transition: {
-                                        duration: 0.4,
-                                        ease: 'easeOut',
-                                        delay: 0.3 + 0 * 0.3,
-                                    },
-                                }}
-                                viewport={{
-                                    amount: 'some',
-                                    once: true,
-                                }}
-                                className="text-stone-800 font-semibold"
-                            >
+                            <span className="text-stone-800 font-semibold">
                                 Pengumuman
-                            </motion.span>
+                            </span>
                             <ul className="flex flex-col list-inside px-4 py-1">
                                 {announcement?.announcements.map(
                                     (item: string, index: number) => (
-                                        <motion.li
+                                        <li
                                             key={index}
-                                            initial={{
-                                                opacity: 0,
-                                            }}
-                                            whileInView={{
-                                                opacity: 1,
-                                                transition: {
-                                                    duration: 0.4,
-                                                    ease: 'easeOut',
-                                                    delay: 0.3 + index * 0.3,
-                                                },
-                                            }}
-                                            viewport={{
-                                                amount: 'some',
-                                                once: true,
-                                            }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
                                             <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
                                             {item}
-                                        </motion.li>
+                                        </li>
                                     )
                                 )}
                             </ul>
@@ -100,51 +65,19 @@ export default function AnnouncementDetail({
                     {/* Summaries */}
                     {(announcement?.summaries.length ?? 0) > 0 && (
                         <div className="w-fit flex flex-col py-1">
-                            <motion.span
-                                initial={{
-                                    opacity: 0,
-                                }}
-                                whileInView={{
-                                    opacity: 1,
-                                    transition: {
-                                        duration: 0.4,
-                                        ease: 'easeOut',
-                                        delay: 0.3 + 0.8 * 0.3,
-                                    },
-                                }}
-                                viewport={{
-                                    amount: 'some',
-                                    once: true,
-                                }}
-                                className="text-stone-800 font-semibold"
-                            >
+                            <span className="text-stone-800 font-semibold">
                                 Ringkasan
-                            </motion.span>
+                            </span>
                             <ul className="flex flex-col list-inside px-4 py-1">
                                 {announcement?.summaries.map(
                                     (item: string, index: number) => (
-                                        <motion.li
+                                        <li
                                             key={index}
-                                            initial={{
-                                                opacity: 0,
-                                            }}
-                                            whileInView={{
-                                                opacity: 1,
-                                                transition: {
-                                                    duration: 0.4,
-                                                    ease: 'easeOut',
-                                                    delay: 0.3 + index * 0.3,
-                                                },
-                                            }}
-                                            viewport={{
-                                                amount: 'some',
-                                                once: true,
-                                            }}
                                             className="w-fit flex gap-2.5 items-start"
                                         >
                                             <div className="w-1 h-1 mt-2.5 shrink-0 aspect-square rounded-full bg-black" />{' '}
                                             {item}
-                                        </motion.li>
+                                        </li>
                                     )
                                 )}
                             </ul>

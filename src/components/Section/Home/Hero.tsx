@@ -89,10 +89,10 @@ export default function Hero() {
                                         <h2 className="text-lg font-semibold">
                                             Galeri
                                         </h2>
-                                        <TextReveal
-                                            className="text-sm lg:text-sm font-medium text-stone-600"
-                                            text="Temukan momen terbaik yang kami abadikan di bawah sini."
-                                        />
+                                        <span className="text-sm lg:text-sm font-medium text-stone-600">
+                                            Temukan momen terbaik yang kami
+                                            abadikan di bawah sini.
+                                        </span>
                                     </div>
                                     <PrimaryButton
                                         href={'/gallery'}

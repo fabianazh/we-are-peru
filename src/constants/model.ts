@@ -87,7 +87,6 @@ export const announcements = [
 
 export const members = [
     {
-        id: 0,
         name: 'Ridzky Muhammad Anwar',
         nickname: 'Ridzky',
         role: 'Mentor',
@@ -96,7 +95,6 @@ export const members = [
         instagram: 'mrdzkynwr_',
     },
     {
-        id: 1,
         name: 'Zalfan Adisaki',
         nickname: 'Zalfan',
         role: 'Ketua',
@@ -105,7 +103,6 @@ export const members = [
         instagram: 'zalfan_adisaki',
     },
     {
-        id: 2,
         name: 'Nur Aulia Sholihah Hasyi',
         nickname: 'Aulia',
         role: 'Wakil Ketua',
@@ -114,7 +111,6 @@ export const members = [
         instagram: 'nuraauliaash_',
     },
     {
-        id: 33,
         name: 'Iva Nuraeni',
         nickname: 'Iva',
         role: 'Sekretaris',
@@ -123,7 +119,6 @@ export const members = [
         instagram: 'ivnrraa_',
     },
     {
-        id: 4,
         name: 'Rista Julia Moniq Pratama',
         nickname: 'Rista',
         role: 'Bendahara',
@@ -132,7 +127,6 @@ export const members = [
         instagram: 'ristaajp',
     },
     {
-        id: 5,
         name: 'Zaskia Bulan Pratama',
         nickname: 'Qia',
         role: 'Publish',
@@ -141,7 +135,6 @@ export const members = [
         instagram: 'bull_11',
     },
     {
-        id: 6,
         name: 'Dahlia Nurohmawati Putri',
         nickname: 'Dahlia',
         role: 'Publish',
@@ -150,7 +143,6 @@ export const members = [
         instagram: 'dahliaaputrii_',
     },
     {
-        id: 7,
         name: 'Muhammad Alfarizzi Sutisna',
         nickname: 'Alfarizzi',
         role: 'Dokumentasi',
@@ -159,7 +151,6 @@ export const members = [
         instagram: 'pixx.ellx',
     },
     {
-        id: 8,
         name: 'Arizal Afsal',
         nickname: 'Arizal',
         role: 'Desain',
@@ -168,7 +159,6 @@ export const members = [
         instagram: 'arizalafsl',
     },
     {
-        id: 9,
         name: 'Muhammad Fabian Azhar',
         nickname: 'Fabian',
         role: 'Desain',
@@ -177,7 +167,6 @@ export const members = [
         instagram: 'fabianazhrr',
     },
     {
-        id: 10,
         name: 'Hilmy Khairy Fasya',
         nickname: 'Mii',
         role: 'Keamanan',
@@ -186,7 +175,6 @@ export const members = [
         instagram: 'me_hilmy12',
     },
     {
-        id: 11,
         name: 'Ibrahimovic Nur Chandra',
         nickname: 'Movix',
         role: 'Keamanan',
@@ -195,7 +183,6 @@ export const members = [
         instagram: 'movicnurchandra',
     },
     {
-        id: 12,
         name: 'Yovi Andri Dwi Nugraha',
         nickname: 'Yovi',
         role: 'Keamanan',
@@ -204,7 +191,6 @@ export const members = [
         instagram: 'yyopiii_',
     },
     {
-        id: 13,
         name: 'Muhamad Yusup',
         nickname: 'Yusup',
         role: 'Keamanan',
@@ -213,7 +199,6 @@ export const members = [
         instagram: 'ysfalfrzz',
     },
     {
-        id: 14,
         name: 'Zahra Nur Fatimah',
         nickname: 'Ara',
         role: 'Keamanan',
@@ -222,7 +207,6 @@ export const members = [
         instagram: 'zahraanff_',
     },
     {
-        id: 15,
         name: 'Audy Auliany',
         nickname: 'Audy',
         role: 'Anggota',
@@ -231,7 +215,6 @@ export const members = [
         instagram: 'audiaayn_',
     },
     {
-        id: 16,
         name: 'Bunga',
         nickname: 'Bunga',
         role: 'Anggota',
@@ -240,7 +223,6 @@ export const members = [
         instagram: 'bungafflr_',
     },
     {
-        id: 17,
         name: 'Diefa Jati Kusumua',
         nickname: 'Diefa',
         role: 'Anggota',
@@ -249,7 +231,6 @@ export const members = [
         instagram: 'diefazze',
     },
     {
-        id: 18,
         name: 'Fajar Danuar Permana',
         nickname: 'Fajar',
         role: 'Anggota',
@@ -258,7 +239,6 @@ export const members = [
         instagram: 'fdanuarp',
     },
     {
-        id: 19,
         name: 'Fauzan Ferdiansyah',
         nickname: 'Fauzan',
         role: 'Anggota',
@@ -267,7 +247,6 @@ export const members = [
         instagram: 'fauzanferdiansyah_',
     },
     {
-        id: 20,
         name: 'Gina Salma',
         nickname: 'Gina',
         role: 'Anggota',
@@ -276,106 +255,6 @@ export const members = [
         instagram: 'gisa_art736',
     },
     {
-        id: 21,
-        name: 'Muhammad Affryansa',
-        nickname: 'Iyan',
-        role: 'Anggota',
-        major: 'Manajemen',
-        src: '/img/member/affryansa.png',
-        instagram: 'Mhaffryansah7',
-    },
-    {
-        id: 22,
-        name: 'Muhammad Gilang Al-Bawafi',
-        nickname: 'Gilang',
-        role: 'Anggota',
-        major: 'Teknik Sipil',
-        src: '/img/member/gilang.png',
-        instagram: 'gilang93941',
-    },
-    {
-        id: 23,
-        name: 'Muhammad Irman',
-        nickname: 'Irman',
-        role: 'Anggota',
-        major: 'Manajemen',
-        src: '/img/member/irman.jpg',
-        instagram: 'thereal_pham',
-    },
-    {
-        id: 24,
-        name: 'Muhammad Zahran Ramdhani Nurmansyah',
-        nickname: 'Zahran',
-        role: 'Anggota',
-        major: 'Teknik Sipil',
-        src: '/img/member/zahran.png',
-        instagram: 'zahran.rn',
-    },
-    {
-        id: 25,
-        name: 'Nabila Fasya Hermawan',
-        nickname: 'Nabila',
-        role: 'Anggota',
-        major: 'Manajemen',
-        src: '/img/member/nabila.jpg',
-        instagram: 'nabilafasyaaf',
-    },
-    {
-        id: 26,
-        name: 'Nur Azhmi Octavia',
-        nickname: 'Octa',
-        role: 'Anggota',
-        major: 'Hukum',
-        src: '/img/member/azmi.png',
-        instagram: 'cheoctavi',
-    },
-    {
-        id: 27,
-        name: 'Nurani',
-        nickname: 'Rani',
-        role: 'Anggota',
-        major: 'PGSD',
-        src: '/img/member/nurani.png',
-        instagram: 'raninr_',
-    },
-    {
-        id: 28,
-        name: 'Rusdianto Nugraha',
-        nickname: 'Rusdi',
-        role: 'Anggota',
-        major: 'Akutansi',
-        src: '/img/member/rusdianto.png',
-        instagram: 'rusdii_18',
-    },
-    {
-        id: 29,
-        name: 'Sabrina Nauran Haq',
-        nickname: 'Sabrina',
-        role: 'Anggota',
-        major: 'Hukum',
-        src: '/img/member/sabrina.png',
-        instagram: 'sbinabeen',
-    },
-    {
-        id: 30,
-        name: 'Salsabila Devina Salma',
-        nickname: 'Salsabila',
-        role: 'Anggota',
-        major: 'Teknik Informatika',
-        src: '/img/member/salsabila.png',
-        instagram: 'salsaabila0',
-    },
-    {
-        id: 31,
-        name: 'Siti Liani',
-        nickname: 'Siti',
-        role: 'Anggota',
-        major: 'PGSD',
-        src: '/img/member/siti.png',
-        instagram: 'sitiliani1',
-    },
-    {
-        id: 32,
         name: 'Intan Apriliani',
         nickname: 'Intan',
         role: 'Anggota',
@@ -384,7 +263,6 @@ export const members = [
         instagram: 'prilldeee',
     },
     {
-        id: 33,
         name: 'Mella Maulia Nursaputri',
         nickname: 'Mella',
         role: 'Anggota',
@@ -393,13 +271,100 @@ export const members = [
         instagram: 'Mellamaulia18',
     },
     {
-        id: 34,
+        name: 'Muhammad Affryansa',
+        nickname: 'Iyan',
+        role: 'Anggota',
+        major: 'Manajemen',
+        src: '/img/member/affryansa.png',
+        instagram: 'Mhaffryansah7',
+    },
+    {
+        name: 'Muhammad Gilang Al-Bawafi',
+        nickname: 'Gilang',
+        role: 'Anggota',
+        major: 'Teknik Sipil',
+        src: '/img/member/gilang.png',
+        instagram: 'gilang93941',
+    },
+    {
+        name: 'Muhammad Irman',
+        nickname: 'Irman',
+        role: 'Anggota',
+        major: 'Manajemen',
+        src: '/img/member/irman.jpg',
+        instagram: 'thereal_pham',
+    },
+    {
+        name: 'Muhammad Zahran Ramdhani Nurmansyah',
+        nickname: 'Zahran',
+        role: 'Anggota',
+        major: 'Teknik Sipil',
+        src: '/img/member/zahran.png',
+        instagram: 'zahran.rn',
+    },
+    {
+        name: 'Nabila Fasya Hermawan',
+        nickname: 'Nabila',
+        role: 'Anggota',
+        major: 'Manajemen',
+        src: '/img/member/nabila.jpg',
+        instagram: 'nabilafasyaaf',
+    },
+    {
+        name: 'Nur Azhmi Octavia',
+        nickname: 'Octa',
+        role: 'Anggota',
+        major: 'Hukum',
+        src: '/img/member/azmi.png',
+        instagram: 'cheoctavi',
+    },
+    {
+        name: 'Nurani',
+        nickname: 'Rani',
+        role: 'Anggota',
+        major: 'PGSD',
+        src: '/img/member/nurani.png',
+        instagram: 'raninr_',
+    },
+    {
         name: 'Riswan Maulana',
         nickname: 'Riswan',
         role: 'Anggota',
         major: 'Teknik Sipil',
         src: '/img/member/riswan.png',
         instagram: 'riswan4415',
+    },
+    {
+        name: 'Rusdianto Nugraha',
+        nickname: 'Rusdi',
+        role: 'Anggota',
+        major: 'Akutansi',
+        src: '/img/member/rusdianto.png',
+        instagram: 'rusdii_18',
+    },
+    {
+        name: 'Sabrina Nauran Haq',
+        nickname: 'Sabrina',
+        role: 'Anggota',
+        major: 'Hukum',
+        src: '/img/member/sabrina.png',
+        instagram: 'sbinabeen',
+    },
+    {
+        name: 'Salsabila Devina Salma',
+        nickname: 'Salsabila',
+        role: 'Anggota',
+        major: 'Teknik Informatika',
+        src: '/img/member/salsabila.png',
+        instagram: 'salsaabila0',
+    },
+    {
+        name: 'Siti Liani',
+        nickname: 'Siti',
+        role: 'Anggota',
+        major: 'PGSD',
+        src: '/img/member/siti.png',
+        instagram: 'sitiliani1',
     },
 ]
 
@@ -408,13 +373,55 @@ export const galleries = [
         id: 'pertemuan-perdana-kelompok-peru',
         title: 'Pertemuan Perdana Kelompok Peru',
         date: '1 September 2024',
-        thumbnail: '/img/gallery/1-sep/thumbnail.jpg',
+        thumbnail: '/img/gallery/01-09-2024/thumbnail.jpg',
         medias: Array.from(
             { length: 27 },
-            (_, i) => `/img/gallery/1-sep/19${i + 1}.jpg`
+            (_, i) => `/img/gallery/01-09-2024/19${i + 1}.jpg`
         ),
         location: {
-            name: 'Mokopi Lingkar Selatan',
+            name: 'Mokopi Jalur',
+            url: '',
+        },
+    },
+    {
+        id: 'pembuatan-atribut-kelompok-peru',
+        title: 'Pembuatan Atribut Kelompok Peru',
+        date: '3 September 2024',
+        thumbnail: '/img/gallery/03-09-2024/thumbnail.jpg',
+        medias: Array.from(
+            { length: 6 },
+            (_, i) => `/img/gallery/03-09-2024/39${i + 1}.jpg`
+        ),
+        location: {
+            name: 'Mokopi Jalur',
+            url: '',
+        },
+    },
+    {
+        id: 'proses-shooting-tugas-kelompok-peru',
+        title: 'Proses Shooting Tugas Kelompok Peru',
+        date: '4 September 2024',
+        thumbnail: '/img/gallery/04-09-2024/thumbnail.JPG',
+        medias: Array.from(
+            { length: 40 },
+            (_, i) => `/img/gallery/04-09-2024/49${i + 1}.JPG`
+        ),
+        location: {
+            name: 'Situ Gunung',
+            url: '',
+        },
+    },
+    {
+        id: 'produksi-konten-kelompok-peru',
+        title: 'Produksi Konten Kelompok Peru',
+        date: '6 September 2024',
+        thumbnail: '/img/gallery/06-09-2024/thumbnail.jpg',
+        medias: Array.from(
+            { length: 5 },
+            (_, i) => `/img/gallery/06-09-2024/69${i + 1}.jpg`
+        ),
+        location: {
+            name: 'Rumah Ketua Kelompok Peru',
             url: '',
         },
     },

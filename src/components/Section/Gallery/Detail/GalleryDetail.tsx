@@ -33,7 +33,7 @@ export default function GalleryDetail({ galleryId }: { galleryId: string }) {
                             </span>
                             <Link
                                 href={`${gallery?.location.url}`}
-                                className="text-sm lg:text-sm text-blue-700 font-semibold"
+                                className="text-sm lg:text-sm text-blue-700 font-semibold inline-block w-fit"
                             >
                                 {gallery?.location.name}
                             </Link>

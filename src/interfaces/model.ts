@@ -10,7 +10,6 @@ interface Announcement {
 }
 
 interface Member {
-    id: number
     name: string
     nickname: string
     role: string

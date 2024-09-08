@@ -48,7 +48,7 @@ export default function Structure() {
                                 transition: {
                                     duration: 0.5,
                                     ease: 'easeOut',
-                                    delay: index * 0.09,
+                                    delay: (index % 10) * 0.09,
                                 },
                             }}
                             viewport={{
@@ -81,7 +81,7 @@ export default function Structure() {
                                         <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 lg:text-stone-700 font-semibold lg:mb-0.5">
                                             {member.major}
                                         </span>
-                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-500 font-semibold">
+                                        <span className="block lg:inline-block text-xs lg:text-sm text-stone-700 font-semibold">
                                             @{member.instagram}
                                         </span>
                                     </div>
