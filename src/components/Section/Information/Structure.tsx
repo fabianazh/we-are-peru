@@ -47,7 +47,7 @@ export default function Structure() {
                                 transition: {
                                     duration: 0.5,
                                     ease: 'easeOut',
-                                    delay: (index % 10) * 0.09,
+                                    delay: (index % 10) * 0.12,
                                 },
                             }}
                             viewport={{

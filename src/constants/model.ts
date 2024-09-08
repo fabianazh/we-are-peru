@@ -372,7 +372,7 @@ export const galleries = [
     {
         id: 'pertemuan-perdana-kelompok-peru',
         title: 'Pertemuan Perdana Kelompok Peru',
-        date: '1 September 2024',
+        date: 'Minggu, 1 September 2024',
         thumbnail: '/img/gallery/01-09-2024/thumbnail.jpg',
         medias: Array.from(
             { length: 27 },
@@ -386,7 +386,7 @@ export const galleries = [
     {
         id: 'pembuatan-atribut-kelompok-peru',
         title: 'Pembuatan Atribut Kelompok Peru',
-        date: '3 September 2024',
+        date: 'Selasa, 3 September 2024',
         thumbnail: '/img/gallery/03-09-2024/thumbnail.jpg',
         medias: Array.from(
             { length: 6 },
@@ -400,7 +400,7 @@ export const galleries = [
     {
         id: 'proses-shooting-tugas-kelompok-peru',
         title: 'Proses Shooting Tugas Kelompok Peru',
-        date: '4 September 2024',
+        date: 'Rabu, 4 September 2024',
         thumbnail: '/img/gallery/04-09-2024/thumbnail.JPG',
         medias: Array.from(
             { length: 40 },
@@ -414,7 +414,7 @@ export const galleries = [
     {
         id: 'produksi-konten-kelompok-peru',
         title: 'Produksi Konten Kelompok Peru',
-        date: '6 September 2024',
+        date: 'Jumat, 6 September 2024',
         thumbnail: '/img/gallery/06-09-2024/thumbnail.jpg',
         medias: Array.from(
             { length: 5 },

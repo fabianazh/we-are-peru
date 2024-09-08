@@ -104,7 +104,9 @@ export default function Hero() {
                                 <div className="w-full h-auto grid grid-cols-5 gap-4">
                                     <div className="h-full w-fit rounded-lg overflow-hidden">
                                         <Image
-                                            src={'/img/gallery/1-sep/192.jpg'}
+                                            src={
+                                                '/img/gallery/01-09-2024/192.jpg'
+                                            }
                                             alt="Peru"
                                             width={200}
                                             height={200}
@@ -113,7 +115,9 @@ export default function Hero() {
                                     </div>
                                     <div className="h-full w-fit rounded-lg overflow-hidden">
                                         <Image
-                                            src={'/img/gallery/1-sep/1911.jpg'}
+                                            src={
+                                                '/img/gallery/01-09-2024/1911.jpg'
+                                            }
                                             alt="Peru"
                                             width={200}
                                             height={200}
@@ -122,7 +126,9 @@ export default function Hero() {
                                     </div>
                                     <div className="h-full w-fit rounded-lg overflow-hidden">
                                         <Image
-                                            src={'/img/gallery/1-sep/1915.jpg'}
+                                            src={
+                                                '/img/gallery/01-09-2024/1915.jpg'
+                                            }
                                             alt="Peru"
                                             width={200}
                                             height={200}
@@ -131,7 +137,9 @@ export default function Hero() {
                                     </div>
                                     <div className="h-full w-fit rounded-lg overflow-hidden">
                                         <Image
-                                            src={'/img/gallery/1-sep/1916.jpg'}
+                                            src={
+                                                '/img/gallery/01-09-2024/1916.jpg'
+                                            }
                                             alt="Peru"
                                             width={200}
                                             height={200}
@@ -140,7 +148,9 @@ export default function Hero() {
                                     </div>
                                     <div className="h-full w-fit rounded-lg overflow-hidden">
                                         <Image
-                                            src={'/img/gallery/1-sep/195.jpg'}
+                                            src={
+                                                '/img/gallery/01-09-2024/195.jpg'
+                                            }
                                             alt="Peru"
                                             width={200}
                                             height={200}
