@@ -136,9 +136,8 @@ export default function NavModal({
                                     initial="initial"
                                     className="text-sm lg:text-sm font-medium text-stone-700"
                                 >
-                                    &copy; {new Date().getFullYear()} Fabian
-                                    Azhar.{' '}
-                                    <span className="block lg:block">
+                                    &copy; {new Date().getFullYear()} by Fabianazh.{' '}
+                                    <span className="block">
                                         All rights reserved.
                                     </span>
                                 </motion.span>
