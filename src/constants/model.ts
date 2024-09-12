@@ -465,10 +465,10 @@ export const galleries = [
         id: 'mabim-hari-ke-1',
         title: 'Mabim Hari Ke-1',
         date: 'Senin, 9 September 2024',
-        thumbnail: '/img/gallery/09-09-2024/thumbnail.jpg',
+        thumbnail: '/img/gallery/09-09-2024/thumbnail.jpeg',
         photos: Array.from(
             { length: 25 },
-            (_, i) => `/img/gallery/09-09-2024/69${i + 1}.jpg`
+            (_, i) => `/img/gallery/09-09-2024/69${i + 1}.jpeg`
         ),
         location: {
             name: 'Universitas Nusa Putra',
