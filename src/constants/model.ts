@@ -468,7 +468,7 @@ export const galleries = [
         thumbnail: '/img/gallery/09-09-2024/thumbnail.jpeg',
         photos: Array.from(
             { length: 25 },
-            (_, i) => `/img/gallery/09-09-2024/69${i + 1}.jpeg`
+            (_, i) => `/img/gallery/09-09-2024/99${i + 1}.jpeg`
         ),
         location: {
             name: 'Universitas Nusa Putra',
