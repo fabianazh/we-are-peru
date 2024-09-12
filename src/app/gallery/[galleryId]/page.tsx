@@ -50,30 +50,6 @@ export async function generateMetadata({
                     ? [gallery?.thumbnail, ...gallery?.photos]
                     : [gallery?.thumbnail],
             },
-            structuredData: {
-                '@context': 'https://schema.org',
-                '@type': 'CreativeWork',
-                name: gallery?.title,
-                description:
-                    'Kelompok Peru adalah kelompok mahasiswa yang penuh semangat dan tekad untuk meraih kesuksesan bersama. Sebagai bagian dari MABIM (Masa Bimbingan) Universitas Nusa Putra, kelompok kami terbentuk dari berbagai latar belakang dan keahlian, namun disatukan oleh tujuan yang sama: belajar, berkolaborasi, dan saling mendukung dalam perjalanan akademik dan kehidupan kampus.',
-                image: gallery?.thumbnail,
-                url: `${process.env.NEXT_PUBLIC_BASE_URL}/gallery/${galleryId}`,
-                datePublished: new Date(),
-                author: {
-                    '@type': 'Person',
-                    name: 'This Is Peru',
-                },
-                headline: gallery?.title,
-                keywords: gallery?.keywords || `Galeri Kelompok Peru`,
-                publisher: {
-                    '@type': 'Organization',
-                    name: 'This Is Peru',
-                    logo: {
-                        '@type': 'ImageObject',
-                        url: `${process.env.NEXT_PUBLIC_BASE_URL}/img/peru/flag.png`,
-                    },
-                },
-            },
         }
     } catch (error) {
         return {
