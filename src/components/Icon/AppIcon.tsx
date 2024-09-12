@@ -5,7 +5,7 @@ export default function AppIcon({ size = 'sm' }: { size?: 'sm' | 'lg' }) {
     return (
         <>
             <Link
-                href={`https://we-are-peru.vercel.app`}
+                href={`https://this-is-peru.vercel.app`}
                 className={`text-black font-extrabold w-fit flex ${
                     size === 'sm' ? 'text-base' : 'text-xl'
                 } ${montserrat.className}`}

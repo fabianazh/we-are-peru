@@ -88,7 +88,7 @@ export default function NavModal({
                                     initial="initial"
                                     className={`text-xl lg:text-xl font-black`}
                                 >
-                                    We Are Peru!
+                                    This Is Peru
                                 </motion.span>
                                 <ul className={`flex flex-col gap-2 lg:gap-2`}>
                                     {navItems.map(
@@ -136,7 +136,8 @@ export default function NavModal({
                                     initial="initial"
                                     className="text-sm lg:text-sm font-medium text-stone-700"
                                 >
-                                    &copy; {new Date().getFullYear()} by Fabianazh.{' '}
+                                    &copy; {new Date().getFullYear()} by
+                                    Fabianazh.{' '}
                                     <span className="block">
                                         All rights reserved.
                                     </span>
