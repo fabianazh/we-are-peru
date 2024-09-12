@@ -5,7 +5,7 @@ export default async function sitemap() {
 
     const galleriesData = galleries.map((gallery: Gallery) => {
         return {
-            url: `${baseUrl}/${gallery.id}`,
+            url: `${baseUrl}/gallery/${gallery.id}`,
             lastModified: new Date(),
         }
     })
@@ -13,7 +13,7 @@ export default async function sitemap() {
     const announcementsData = announcements.map(
         (announcement: Announcement) => {
             return {
-                url: `${baseUrl}/${announcement.id}`,
+                url: `${baseUrl}/announcement/${announcement.id}`,
                 lastModified: new Date(),
             }
         }
