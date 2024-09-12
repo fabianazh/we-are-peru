@@ -444,7 +444,7 @@ export const galleries = [
         date: 'Jumat, 6 September 2024',
         thumbnail: '/img/gallery/06-09-2024/thumbnail.jpg',
         photos: Array.from(
-            { length: 11 },
+            { length: 10 },
             (_, i) => `/img/gallery/06-09-2024/69${i + 1}.jpg`
         ),
         location: {
