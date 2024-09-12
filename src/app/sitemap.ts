@@ -6,7 +6,7 @@ export default async function sitemap() {
     const galleriesData = galleries.map((gallery: Gallery) => {
         return {
             url: `${baseUrl}/gallery/${gallery.id}`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         }
     })
 
@@ -14,7 +14,7 @@ export default async function sitemap() {
         (announcement: Announcement) => {
             return {
                 url: `${baseUrl}/announcement/${announcement.id}`,
-                lastModified: new Date(),
+                lastModified: new Date().toISOString(),
             }
         }
     )
@@ -22,19 +22,19 @@ export default async function sitemap() {
     return [
         {
             url: `${baseUrl}`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         {
             url: `${baseUrl}/information`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         {
             url: `${baseUrl}/announcement`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         {
             url: `${baseUrl}/gallery`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         ...announcementsData,
         ...galleriesData,
