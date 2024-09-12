@@ -54,7 +54,7 @@ export default function Footer() {
                 </nav>
                 <div className={`flex items-center justify-between gap-6`}>
                     <span className="font-medium lg:font-semibold text-xs text-stone-600">
-                        ©{currentYear} Created and Designed by{' '}
+                        ©{currentYear} by{' '}
                         <Link href={`https://fabianazh.vercel.app`}>
                             Fabianazh
                         </Link>
