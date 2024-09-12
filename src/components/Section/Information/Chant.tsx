@@ -24,7 +24,7 @@ export default function Chant() {
                         <div className="w-full h-auto rounded-xl overflow-hidden">
                             <iframe
                                 // height="315"
-                                src="https://www.youtube.com/embed/uCQiKowwByM?si=sNGpmluBwTIOG3vQ"
+                                src="https://www.youtube.com/embed/ZaUskFNiVrU?si=fbeNgVFzQ3TGaDJd"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin"
