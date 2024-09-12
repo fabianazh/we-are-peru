@@ -1,7 +1,5 @@
 'use client'
 
-import TextReveal from '@/components/Other/TextReveal'
-import { motion } from 'framer-motion'
 import { announcementService } from '@/services/announcementService'
 import ArrowButton from '@/components/Button/ArrowButton'
 

@@ -23,7 +23,8 @@ interface Gallery {
     title: string
     date: string
     thumbnail: string
-    medias: string[]
+    photos: string[]
+    keywords: string[]
     location: {
         name: string
         url: string

@@ -374,7 +374,7 @@ export const galleries = [
         title: 'Pertemuan Perdana Kelompok Peru',
         date: 'Minggu, 1 September 2024',
         thumbnail: '/img/gallery/01-09-2024/thumbnail.jpg',
-        medias: Array.from(
+        photos: Array.from(
             { length: 27 },
             (_, i) => `/img/gallery/01-09-2024/19${i + 1}.jpg`
         ),
@@ -382,13 +382,22 @@ export const galleries = [
             name: 'Mokopi Jalur',
             url: '',
         },
+        keywords: [
+            'This Is Peru',
+            'Galeri Kelompok Peru',
+            'Galeri Kelompok Peru 45',
+            'We Are Peru',
+            'Peru 45',
+            'Kelompok Peru',
+            'Pertemuan Perdana Kelompok Peru',
+        ],
     },
     {
         id: 'pembuatan-atribut-kelompok-peru',
         title: 'Pembuatan Atribut Kelompok Peru',
         date: 'Selasa, 3 September 2024',
         thumbnail: '/img/gallery/03-09-2024/thumbnail.jpg',
-        medias: Array.from(
+        photos: Array.from(
             { length: 6 },
             (_, i) => `/img/gallery/03-09-2024/39${i + 1}.jpg`
         ),
@@ -396,13 +405,22 @@ export const galleries = [
             name: 'Mokopi Jalur',
             url: '',
         },
+        keywords: [
+            'This Is Peru',
+            'Galeri Kelompok Peru',
+            'Galeri Kelompok Peru 45',
+            'We Are Peru',
+            'Peru 45',
+            'Kelompok Peru',
+            'Proses Shooting Tugas Kelompok Peru',
+        ],
     },
     {
         id: 'proses-shooting-tugas-kelompok-peru',
         title: 'Proses Shooting Tugas Kelompok Peru',
         date: 'Rabu, 4 September 2024',
         thumbnail: '/img/gallery/04-09-2024/thumbnail.JPG',
-        medias: Array.from(
+        photos: Array.from(
             { length: 40 },
             (_, i) => `/img/gallery/04-09-2024/49${i + 1}.JPG`
         ),
@@ -410,19 +428,60 @@ export const galleries = [
             name: 'Situ Gunung',
             url: '',
         },
+        keywords: [
+            'This Is Peru',
+            'Galeri Kelompok Peru',
+            'Galeri Kelompok Peru 45',
+            'We Are Peru',
+            'Peru 45',
+            'Kelompok Peru',
+            'Proses Shooting Tugas Kelompok Peru',
+        ],
     },
     {
         id: 'produksi-konten-kelompok-peru',
         title: 'Produksi Konten Kelompok Peru',
         date: 'Jumat, 6 September 2024',
         thumbnail: '/img/gallery/06-09-2024/thumbnail.jpg',
-        medias: Array.from(
-            { length: 5 },
+        photos: Array.from(
+            { length: 11 },
             (_, i) => `/img/gallery/06-09-2024/69${i + 1}.jpg`
         ),
         location: {
             name: 'Rumah Ketua Kelompok Peru',
             url: '',
         },
+        keywords: [
+            'This Is Peru',
+            'Galeri Kelompok Peru',
+            'Galeri Kelompok Peru 45',
+            'We Are Peru',
+            'Peru 45',
+            'Kelompok Peru',
+            'Produksi Konten Kelompok Peru',
+        ],
+    },
+    {
+        id: 'mabim-hari-ke-1',
+        title: 'Mabim Hari Ke-1',
+        date: 'Senin, 9 September 2024',
+        thumbnail: '/img/gallery/09-09-2024/thumbnail.jpg',
+        photos: Array.from(
+            { length: 25 },
+            (_, i) => `/img/gallery/09-09-2024/69${i + 1}.jpg`
+        ),
+        location: {
+            name: 'Universitas Nusa Putra',
+            url: '',
+        },
+        keywords: [
+            'This Is Peru',
+            'Galeri Kelompok Peru',
+            'Galeri Kelompok Peru 45',
+            'We Are Peru',
+            'Peru 45',
+            'Kelompok Peru',
+            'Mabim Hari Ke-1',
+        ],
     },
 ]

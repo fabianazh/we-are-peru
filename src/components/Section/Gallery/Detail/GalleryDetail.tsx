@@ -44,7 +44,7 @@ export default function GalleryDetail({ galleryId }: { galleryId: string }) {
 
                 {/* Content */}
                 <div className="w-full columns-2 md:columns-3 lg:columns-4 ap-4 lg:gap-6 font-medium text-stone-600">
-                    {gallery?.medias.map((media: string, index: number) => (
+                    {gallery?.photos.map((media: string, index: number) => (
                         <div key={index} className="w-full mb-4 lg:mb-6">
                             <Image
                                 src={`${media}`}

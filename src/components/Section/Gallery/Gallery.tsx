@@ -50,7 +50,7 @@ export default function Announcement() {
                         >
                             <Link
                                 href={`/gallery/${gallery.id}`}
-                                className="w-full h-auto flex-grow flex gap-8 justify-between p-4 bg-white group hover:bg-stone-50 duration-all transition-colors shadow-sm rounded-xl"
+                                className="w-full h-auto flex-grow flex gap-8 justify-between p-4 bg-white group hover:bg-stone-50 hover:shadow duration-300 transition-all shadow-sm rounded-xl"
                             >
                                 <div className="w-full flex flex-col gap-2 lg:gap-2">
                                     <span className="text-sm lg:text-lg font-bold">
