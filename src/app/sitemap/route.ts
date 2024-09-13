@@ -32,12 +32,12 @@ export async function GET() {
             url: `${baseUrl}/announcement`,
             lastModified: new Date().toISOString(),
         },
-        // ...announcementsData,
+        ...announcementsData,
         {
             url: `${baseUrl}/gallery`,
             lastModified: new Date().toISOString(),
         },
-        // ...galleriesData,
+        ...galleriesData,
     ].map((item) => {
         return `
         <url>
