@@ -22,20 +22,20 @@ export async function GET() {
     const sitemap = [
         {
             url: `${baseUrl}`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         {
             url: `${baseUrl}/information`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         {
             url: `${baseUrl}/announcement`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         // ...announcementsData,
         {
             url: `${baseUrl}/gallery`,
-            lastModified: new Date(),
+            lastModified: new Date().toISOString(),
         },
         // ...galleriesData,
     ].map((item) => {
