@@ -7,6 +7,7 @@ interface Announcement {
     time: string
     announcements: string[]
     summaries: string[]
+    created_at: string
 }
 
 interface Member {
@@ -29,4 +30,5 @@ interface Gallery {
         name: string
         url: string
     }
+    created_at: string
 }

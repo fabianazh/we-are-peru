@@ -6,7 +6,7 @@ export async function GET() {
     const galleriesData = galleries.map((gallery: Gallery) => {
         return {
             url: `${baseUrl}/gallery/${gallery.id}`,
-            lastModified: new Date().toISOString(),
+            lastModified: gallery.created_at,
         }
     })
 
@@ -14,7 +14,7 @@ export async function GET() {
         (announcement: Announcement) => {
             return {
                 url: `${baseUrl}/announcement/${announcement.id}`,
-                lastModified: new Date().toISOString(),
+                lastModified: announcement.created_at,
             }
         }
     )
@@ -22,20 +22,20 @@ export async function GET() {
     const sitemap = [
         {
             url: `${baseUrl}`,
-            lastModified: new Date().toISOString(),
+            lastModified: new Date(),
         },
         {
             url: `${baseUrl}/information`,
-            lastModified: new Date().toISOString(),
+            lastModified: new Date(),
         },
         {
             url: `${baseUrl}/announcement`,
-            lastModified: new Date().toISOString(),
+            lastModified: new Date(),
         },
         ...announcementsData,
         {
             url: `${baseUrl}/gallery`,
-            lastModified: new Date().toISOString(),
+            lastModified: new Date(),
         },
         ...galleriesData,
     ].map((item) => {
