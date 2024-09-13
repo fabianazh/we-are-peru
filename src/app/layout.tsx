@@ -23,6 +23,7 @@ export const metadata: Metadata = {
         'weareperu',
         'weareperu45',
         'peru45',
+        'peru 45',
         'kelompok45',
         'thisisperupride',
         'peru pride',

@@ -39,7 +39,7 @@ export const announcements = [
     },
     {
         index: 2,
-        id: 'pengumuman-mengenai-take-video-tugad-kelompok',
+        id: 'pengumuman-mengenai-take-video-tugas-kelompok',
         title: 'Pengumuman Mengenai Take Video Tugas Kelompok',
         desc: 'Pada hari Selasa tanggal 03 September 2024, Ketua Kelompok Peru mengumumkan beberapa hal yang perlu diketahui oleh anggota kelompok. Untuk detail pengumumannya silahkan dicek ya!!',
         date: 'Selasa, 03 September 2024',
