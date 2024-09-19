@@ -7,15 +7,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const galleriesData = galleries.map((gallery) => ({
         url: `${baseUrl}/gallery/${gallery.id}`,
-        lastModified: gallery.created_at,
-        changeFrequency: 'monthly',
-        priority: 0.7,
+        lastModified: new Date(),
     }))
 
     const announcementsData = announcements.map((announcement) => ({
         url: `${baseUrl}/announcement/${announcement.id}`,
-        lastModified: announcement.created_at,
-        priority: 0.6,
+        lastModified: new Date(),
     }))
 
     return [
