@@ -456,7 +456,7 @@ export const galleries = [
             (_, i) => `/img/gallery/06-09-2024/69${i + 1}.jpg`
         ),
         location: {
-            name: 'Rumah Ketua Kelompok Peru',
+            name: 'Basecamp Kelompok Peru',
             url: '',
         },
         keywords: [
@@ -502,7 +502,7 @@ export const galleries = [
         date: 'Selasa, 10 September 2024',
         thumbnail: '/img/gallery/10-09-2024/thumbnail.jpeg',
         photos: Array.from(
-            { length: 18 },
+            { length: 17 },
             (_, i) => `/img/gallery/10-09-2024/109${i + 1}.jpeg`
         ),
         location: {
