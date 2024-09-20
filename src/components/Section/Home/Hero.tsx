@@ -177,7 +177,7 @@ export default function Hero() {
                             </span>
                             <div className="w-full flex flex-col gap-3">
                                 <Link
-                                    href="https://instagram.com/thisisperupride_"
+                                    href="https://instagram.com/thisisperu_"
                                     className="text-sm flex items-center gap-2"
                                 >
                                     <GrInstagram className="text-xs" />
