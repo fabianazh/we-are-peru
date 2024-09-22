@@ -23,6 +23,7 @@ interface Gallery {
     id: string
     title: string
     date: string
+    desc?: string
     thumbnail: string
     photos: string[]
     keywords: string[]
